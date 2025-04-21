@@ -1,0 +1,44 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Palpable Nodes",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Palpable Nodes",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "right",
+                                    "leftSideHeader": "Right",
+                                    "minlength": 1,
+                                    "maxlength": 20,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "left",
+                                    "leftSideHeader": "Left",
+                                    "minlength": 1,
+                                    "maxlength": 20,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

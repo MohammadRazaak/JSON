@@ -1,0 +1,330 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Plan & Advice - Follow up",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Plan & Advice - Follow up",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "multipledropdown",
+                                    "name": "rehabilitation",
+                                    "leftSideHeader": "Rehabilitation Plan & Advice",
+                                    "backLabel": "( Double click on option to add into this Text box )",
+                                    "targetFieldName": "rehabilitationText",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "rehabilitation"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "rehabilitationText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Optical Devices - Distance Task",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "addorremoverow",
+                            "name": "devicesDistanceTaskRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "devicesDistanceTask",
+                                    "leftSideHeader": "Optical Devices - Distance Task",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "devicesdistancetask"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Optical Devices - Near Task",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "addorremoverow",
+                            "name": "devicesNearTaskRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "devicesNearTask",
+                                    "leftSideHeader": "Optical Devices - Nears Task",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "devicesneartask"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Electronic Devices",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "addorremoverow",
+                            "name": "electronicDevicesRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "electronicDevices",
+                                    "leftSideHeader": "Electronic Devices",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "electronicdevices"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Absorptive Devices",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "addorremoverow",
+                            "name": "absorptiveDevicesRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "absorptiveDevices",
+                                    "leftSideHeader": "Absorptive Devices",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "absorptivedevices"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Other Non Optical Devices",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "addorremoverow",
+                            "name": "otherNonOpticalDevicesRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "otherNonOpticalDevices",
+                                    "leftSideHeader": "Other Non Optical Devices",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "othernonopticaldevices"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Referral to Rehabilitation Department",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "referralYesNo",
+                                    "leftSideHeader": "Referral to Rehabilitation Department",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                },
+                                {
+                                    "type": "multipledropdown",
+                                    "name": "rehabilitationDepartment",
+                                    "backLabel": "( Double click on option to add into this Text box )",
+                                    "targetFieldName": "rehabilitationDeptText",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "rehabilitationdepartment"
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "rehabilitationDeptText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "motivated",
+                                    "leftSideHeader": "Motivated to use LVDs",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "medicalcertificate"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "lvdsPurchased",
+                                    "leftSideHeader": "LVDs Purchased",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "medicalcertificate",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "lvdsPurchased",
+                                            "showHideDependentControls": [
+                                                "lvdIfNo"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "No"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "lvdIfNo",
+                                    "options": "lvdpurchased",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "otherServices",
+                                    "leftSideHeader": "Other Services",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "additionalComments",
+                                    "leftSideHeader": "Additional Comments",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "patientEligible",
+                                    "leftSideHeader": "Is Patient eligible for support services?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "patientEligible",
+                                            "showHideDependentControls": [
+                                                "patientEligibleIfYes"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "patientEligibleIfYes",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

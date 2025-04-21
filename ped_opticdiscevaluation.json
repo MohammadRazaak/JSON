@@ -1,0 +1,504 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Optic Disc Evaluation",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Optic Disc Evaluation",
+                "showHeader": false,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "type": "addorremoverow",
+                        "name": "appearanceRow",
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "appearanceSelectOD",
+                                "leftSideHeader": "Appearance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "appearance"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "appearanceSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "appearance"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "shapeSelectOD",
+                                "leftSideHeader": "Shape",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticshape"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "shapeSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticshape"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "marginSelectOD",
+                                "leftSideHeader": "Margin",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticmargin",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "marginSelectOD",
+                                        "showHideDependentControls": ["blurredMarginOD"],
+                                        "showHideControlBasedOnValue": ["Blurred"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "marginSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticmargin",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "marginSelectOS",
+                                        "showHideDependentControls": ["blurredMarginOS"],
+                                        "showHideControlBasedOnValue": ["Blurred"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "blurredMarginOD",
+                                "label": "If Blurred",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "blurredMarginOS",
+                               "label": "If Blurred",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaSelectOD",
+                                "leftSideHeader": "Disc Edema",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "discedema",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "discEdemaSelectOD",
+                                        "showHideDependentControls": ["discEdemaPapilllaryOD","discEdemaPapilValOD"],
+                                        "showHideControlBasedOnValue": ["Diffuse","Sectoral","Pallid Disc Edema","Hyperemic Disc Edema","Pseudo Disc Edema"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "discedema",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "discEdemaSelectOS",
+                                        "showHideDependentControls": ["discEdemaPapilllaryOS","discEdemaPapilValOS"],
+                                        "showHideControlBasedOnValue": ["Diffuse","Sectoral","Pallid Disc Edema","Hyperemic Disc Edema","Pseudo Disc Edema"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaPapilllaryOD",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaPapilllaryOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaPapilValOD",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "discedemapallorvalues"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaPapilValOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "discedemapallorvalues"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaTemporalSelectOD",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "temporal"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discEdemaTemporalSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "temporal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "cdratioSelectOD",
+                                "leftSideHeader": "C/D Ratio",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticcdratio"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "cdratioSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticcdratio"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Vessels",
+                "showHeader": true,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "pulsationsOD",
+                                "leftSideHeader": "Spontaneous Venous Pulsations",
+                                "required": false,
+                                "options": "myopiayesno"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "pulsationsOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "telengiectasiasOD",
+                                "leftSideHeader": "Telengiectasias over Disc",
+                                "required": false,
+                                "options": "myopiayesno"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "telengiectasiasOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "hemorrhagesOD",
+                                "leftSideHeader": "Hemorrhages",
+                                "required": false,
+                                "options": "myopiayesno"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "hemorrhagesOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "shuntsOD",
+                                "leftSideHeader": "Optico - Ciliary Shunts",
+                                "required": false,
+                                "options": "myopiayesno"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "shuntsOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "malformationsOD",
+                                "leftSideHeader": "AV Malformations",
+                                "required": false,
+                                "options": "myopiayesno"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "malformationsOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "exudatesOD",
+                                "leftSideHeader": "Disc Exudates",
+                                "required": false,
+                                "options": "myopiayesno"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "exudatesOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "myelinationOD",
+                                "leftSideHeader": "Myelination",
+                                "required": false,
+                                "options": "myopiayesno"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "myelinationOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsOD",
+                                "leftSideHeader": "NFL Defects",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsOS",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsTwoOD",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectstwo"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsTwoOS",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectstwo"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsThreeOD",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsthree"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsThreeOS",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsthree"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "type": "addorremoverow",
+                        "name": "additionalFeaturesRow",
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "retinaOD",
+                                "leftSideHeader": "Peri Papillary Retina",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "peripapillaryretina",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "retinaOD",
+                                        "showHideDependentControls": ["zoneOD"],
+                                        "showHideControlBasedOnValue": ["Edema","Hemorrhage","Exudates","Narrow Vessels","Pallor of Retina","Tortousity of Vessels","Telengiectasias","Pigmentary Changes","Atrophy","Paton's Lines"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "retinaOS",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "peripapillaryretina",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "retinaOS",
+                                        "showHideDependentControls": ["zoneOS"],
+                                        "showHideControlBasedOnValue": ["Edema","Hemorrhage","Exudates","Narrow Vessels","Pallor of Retina","Tortousity of Vessels","Telengiectasias","Pigmentary Changes","Atrophy","Paton's Lines"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "zoneOD",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "zone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "zoneOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "zone"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "retinalPathology",
+                                "leftSideHeader": "Associated / Co-existing Retinal Pathology",
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

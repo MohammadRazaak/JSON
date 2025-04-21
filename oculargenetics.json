@@ -1,0 +1,526 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Ocular Genetics",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Ocular Genetics",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fathersNameText",
+                                "leftSideHeader": "Fathers Name",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z ]+$",
+                                "patternType": "alphawithspace"
+                            },
+                            {
+                                "type": "text",
+                                "name": "fathersMobileNo",
+                                "label": "Mobile No",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "mothersNameText",
+                                "leftSideHeader": "Mothers Name",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z ]+$",
+                                "patternType": "alphawithspace"
+                            },
+                            {
+                                "type": "text",
+                                "name": "mothersMobileNo",
+                                "label": "Mobile No",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "attendersNameText",
+                                "leftSideHeader": "Attenders Name",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z ]+$",
+                                "patternType": "alphawithspace"
+                            },
+                            {
+                                "type": "text",
+                                "name": "attendersMobileNo",
+                                "label": "Mobile No",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "dropdownwithautocomplete",
+                                "name": "referredBySelect",
+                                "leftSideHeader": "Referred By",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "referredby"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "reasonForRefferenceTextArea",
+                                "leftSideHeader": "Reason For Refference/Diagnosis",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "ageOfOnsetMonth",
+                                "leftSideHeader": "Age of Onset",
+                                "label": "Month",
+                                "required": false,
+                                "min": 1,
+                                "max": 12,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "ageOfOnsetYear",
+                                "label": "Year",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 4,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "clinicalSymptomsTextArea",
+                                "leftSideHeader": "Clinical Symptoms",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Syndromic Features",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "hearingLossTextArea",
+                                "leftSideHeader": "Hearing Loss",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "cardiacTextArea",
+                                "leftSideHeader": "Cardiac",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "neurologicalTextArea",
+                                "leftSideHeader": "Neurological",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "skeletalTextArea",
+                                "leftSideHeader": "Skeletal",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "endocrineTextArea",
+                                "leftSideHeader": "Endocrine",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "dermatologicalTextArea",
+                                "leftSideHeader": "Dermatological",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "learningDifficultTextArea",
+                                "leftSideHeader": "Learning Difficulties",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "otherTextArea",
+                                "leftSideHeader": "Other",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "file",
+                                "name": "familyPedigree",
+                                "leftSideHeader": "Family Pedigree",
+                                "multiple": true,
+                                "accept": ".pdf,.jpg,.png"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Family History",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sporadicSelect",
+                                "leftSideHeader": "Sporadic",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "autoSomalSelect",
+                                "leftSideHeader": "Autosomal",
+                                "label": "",
+                                "required": false,
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "autoSomalSelect",
+                                        "showHideDependentControls": ["autoSomalChecked"],
+                                        "showHideControlBasedOnValue": ["true",true]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "radio",
+                                "name": "autoSomalChecked",
+                                "label": "If Checked",
+                                "required": false,
+                                "options": "autosomal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "xLinkedSelect",
+                                "leftSideHeader": "X-Linked",
+                                "label": "",
+                                "required": false,
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "xLinkedSelect",
+                                        "showHideDependentControls": ["xLinkedChecked"],
+                                        "showHideControlBasedOnValue": ["true",true]
+                                    }
+                                ]  
+                            },
+                            {
+                                "type": "radio",
+                                "name": "xLinkedChecked",
+                                "label": "If Checked",
+                                "required": false,
+                                "options": "autosomal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "mitochondrialSelect",
+                                "leftSideHeader": "Mitochondrial",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "maleTransmissionSelect",
+                                "leftSideHeader": "Male To Male Transmission",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "penetranceLevelSelect",
+                                "leftSideHeader": "Penetrance Level",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "consanguinitySelect",
+                                "leftSideHeader": "Consanguinity",
+                                "label": "",
+                                "required": false,
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "consanguinitySelect",
+                                        "showHideDependentControls": ["consanguinityIfChecked"],
+                                        "showHideControlBasedOnValue": ["true",true]
+                                    }
+                                ]  
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "consanguinityIfChecked",
+                                "label": "If Checked",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "consanguinityoption"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "preTestCounselTextArea",
+                                "leftSideHeader": "Pre-Test Counselling",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "testSuggestedSelect",
+                                "leftSideHeader": "Test Suggested",
+                                "required": false,
+                                "label": "",
+                                "options": "testsuggested",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "testSuggestedSelect",
+                                        "showHideDependentControls": ["testSuggestedOthers"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]  
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "testSuggestedOthers",
+                                "label": "If Others",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "reportTextArea",
+                                "leftSideHeader": "Report/Result",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "postTestCounselTextArea",
+                                "leftSideHeader": "Post Test Counselling",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1500,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

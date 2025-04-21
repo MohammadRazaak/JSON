@@ -1,0 +1,259 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Sensory Examination",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Sensory Examination",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "Near"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "Distance"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "wfdtNear",
+                                    "leftSideHeader": "WFDT",
+                                    "required": false,
+                                    "options": "wfdt",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "wfdtDistance",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "wfdt",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "bagoliniNear",
+                                    "leftSideHeader": "Bagolini Striated Glasses Test",
+                                    "required": false,
+                                    "options": "bagolini",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "bagoliniDistance",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "bagolini",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "odosFixing",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "fixing"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "diplopiaNear",
+                                    "leftSideHeader": "Diplopia Charting",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "diplopiaDistance",
+                                    "leftSideHeader": "",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "hessNear",
+                                    "leftSideHeader": "Hess Charting",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "hessDistance",
+                                    "leftSideHeader": "",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "StereocuityNear",
+                                    "leftSideHeader": "Stereocuity",
+                                    "backLabel": "sec of Arc",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "StereocuityDistance",
+                                    "backLabel": "sec of Arc",
+                                    "labelPosition": "center",
+                                    "leftSideHeader": "",
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "secOfArcNear",
+                                    "required": false,
+                                    "options": "secofarc",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "secOfArcDistance",
+                                    "required": false,
+                                    "options": "secofarc",
+                                    "placeholder": "secofarc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Double Maddox Rod Test",
+                    "showHeader": true,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "excyclotorsionOD",
+                                    "leftSideHeader": "Excyclotorsion",
+                                    "backLabel": "o",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "excyclotorsionOS",
+                                    "required": false,
+                                    "backLabel": "o",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "incyclotorsionOD",
+                                    "leftSideHeader": "Incyclotorsion",
+                                    "backLabel": "o",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "incyclotorsionOS",
+                                    "required": false,
+                                    "backLabel": "o",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

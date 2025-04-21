@@ -1,0 +1,383 @@
+{
+    "fieldsSet": [
+        {
+            "header": "History Form",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "History Form",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "trauma",
+                                "leftSideHeader": "Trauma",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "chemicalBurn",
+                                "leftSideHeader": "Chemical Burn",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "multipleSurgeries",
+                                "leftSideHeader": "Multiple Surgeries",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "pterygiumExcision",
+                                "leftSideHeader": "pterygium excision",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "bloodCancer",
+                                "leftSideHeader": "Blood Cancer",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "cancerHeadOrdNeck",
+                                "leftSideHeader": "Cancer (Head/Neck)",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "radiotherapy",
+                                "leftSideHeader": "Radiotherapy",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "allogeneicBMT",
+                                "leftSideHeader": "Allogeneic BMT",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "usageOfAntiGlaucoma",
+                                "leftSideHeader": "Usage of anti-glaucoma medications",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "usageOfAntiGlaucoma",
+                                        "showHideDependentControls": ["usageOfAntiGlaucomaMnth","usageOfAntiGlaucomaYr"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ]  
+                            },
+                            {
+                                "type": "text",
+                                "name": "usageOfAntiGlaucomaMnth",
+                                "backLabel": "Month",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "usageOfAntiGlaucomaYr",
+                                "backLabel": "Year",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 4,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "diabetes ",
+                                "leftSideHeader": "Diabetes",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "oralGliptinUsage ",
+                                "leftSideHeader": "Oral gliptin usage",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "oralGliptinUsage",
+                                        "showHideDependentControls": ["oralGliptinUsageMnth","oralGliptinUsageYr"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ]  
+                            },
+                            {
+                                "type": "text",
+                                "name": "oralGliptinUsageMnth",
+                                "backLabel": "Month",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "oralGliptinUsageYr",
+                                "backLabel": "Year",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 4,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "dryMouth ",
+                                "leftSideHeader": "Dry mouth",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },{
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "smallJointPain ",
+                                "leftSideHeader": "Small joint pain",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "atopy",
+                                "leftSideHeader": "Atopy",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 15,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "recurrentOralUlcers",
+                                "leftSideHeader": "Recurrent oral ulcers",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 16,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "admission",
+                                "leftSideHeader": "Hospital admission, skin necrolysis, fall of nails, drug allergy",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 17,
+                        "type": "paragraph",
+                        "label": "General Examination"
+                    },
+                    {
+                        "number": 18,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "skinDiscoloration",
+                                "leftSideHeader": "Skin discoloration",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },{
+                        "number": 19,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "pigmentation",
+                                "leftSideHeader": "Pigmentation around the eyes",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "pigmentation",
+                                        "showHideDependentControls": ["pigmentationYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pigmentationYes",
+                                "label": "If Yes",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "pigmentationtype"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 20,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "disfigured",
+                                "leftSideHeader": "Disfigured fingernails or toenails",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 21,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "posterior",
+                                "leftSideHeader": "Posterior migration of mucocutaneous junction in the mouth",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 22,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "visibleJoint",
+                                "leftSideHeader": "Visible joint deformities in hands",
+                                "columnHeader": "",
+                                "label": "",
+                                "required": false,
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

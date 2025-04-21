@@ -1,0 +1,232 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Pupil",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Pupil",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "pupilRadioSelect",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "pupilradio"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "sizeOD",
+                                    "leftSideHeader": "Size",
+                                    "backLabel": "mm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "sizeOS",
+                                    "leftSideHeader": "",
+                                    "backLabel": "mm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "sizeODSelect",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "globeretraction"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "sizeOSSelect",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "globeretraction"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "shapeOD",
+                                    "leftSideHeader": "Shape",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "shapeOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "anisocoria",
+                                    "leftSideHeader": "Anisocoria",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "anisocoria"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "lightReflexOD",
+                                    "leftSideHeader": "Light reflex",
+                                    "required": false,
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "lightReflexOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "accomodationReflexOD",
+                                    "leftSideHeader": "Accomodation Reflex",
+                                    "required": false,
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "accomodationReflexOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "dissociationOD",
+                                    "leftSideHeader": "Light - Near Dissociation",
+                                    "required": false,
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "dissociationOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "rapdOD",
+                                    "leftSideHeader": "RAPD",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "rapd"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "rapdOS",
+                                    "leftSideHeader": "",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "rapd"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "notesOD",
+                                    "leftSideHeader": "Notes",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "notesOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

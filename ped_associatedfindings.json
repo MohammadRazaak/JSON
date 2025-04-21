@@ -1,0 +1,118 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Associated Findings",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Associated Findings",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "globeSlipOD",
+                                    "leftSideHeader": "Globe Slip",
+                                    "required": false,
+                                    "options": "globeslip",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "globeSlipOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "globeslip",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "checkbox",
+                                    "name": "globeRetractionOD",
+                                    "leftSideHeader": "Globe Retraction",
+                                    "required": false,
+                                    "options": "globeretraction"
+                                },
+                                {
+                                    "type": "checkbox",
+                                    "name": "globeRetractionOS",
+                                    "required": false,
+                                    "options": "globeretraction"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "synkinesisOD",
+                                    "leftSideHeader": "Synkinesis",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "synkinesisOS",
+                                    "leftSideHeader": "",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "parkOD",
+                                    "leftSideHeader": "Park and Bielchowsky 3 step Test",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "parkOS",
+                                    "leftSideHeader": "",
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

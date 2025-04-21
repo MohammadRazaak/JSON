@@ -1,0 +1,684 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Motor Examination",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Facial Features",
+                    "showHeader": true,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "facialFeatures",
+                                    "leftSideHeader": "Facial Features",
+                                    "required": false,
+                                    "options": "facialfeatures"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "facialFeaturesText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Head Posture",
+                    "showHeader": true,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "Right Eye"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "Left Eye"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "headTiltRE",
+                                    "leftSideHeader": "Head Tilt",
+                                    "required": false,
+                                    "options": "headposture"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "headTiltLE",
+                                    "required": false,
+                                    "options": "headposture"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "headTiltNotNoneRE",
+                                    "backLabel": "0",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "headTiltNotNoneLE",
+                                    "backLabel": "0",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "faceTurnRE",
+                                    "leftSideHeader": "Face Turn",
+                                    "required": false,
+                                    "options": "headposture"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "faceTurnLE",
+                                    "required": false,
+                                    "options": "headposture"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "faceTurnNotNoneRE",
+                                    "backLabel": "0",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "faceTurnNotNoneLE",
+                                    "backLabel": "0",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "chinElevation",
+                                    "leftSideHeader": "Chin Elevation",
+                                    "required": false,
+                                    "options": "headposture"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "chinElevationNotNone",
+                                    "backLabel": "0",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "chinDepression",
+                                    "leftSideHeader": "Chin Depression",
+                                    "required": false,
+                                    "options": "headposture"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "chinDepressionNotNone",
+                                    "backLabel": "0",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Ocular Position",
+                    "showHeader": true,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "uniocularODSelect",
+                                    "leftSideHeader": "Uniocular(OD)",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "uniocular"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "uniocularODText",
+                                    "label": "mm",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 20,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ],
+                            "type": "addorremoverow",
+                            "name": "uniocularODRow"
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "uniocularOSSelect",
+                                    "leftSideHeader": "Uniocular(OS)",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "uniocular"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "uniocularOSText",
+                                    "label": "mm",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 20,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ],
+                            "type": "addorremoverow",
+                            "name": "uniocularOSRow"
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "binocularSelect",
+                                    "leftSideHeader": "Binocular(OU)",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "binocular"
+                                }
+                            ],
+                            "type": "addorremoverow",
+                            "name": "binocularOURow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Eyelid Features",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "eyeLidFeaturesRE",
+                                    "leftSideHeader": "Eyelid Features",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "eyelidfeatures"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "eyeLidFeaturesLE",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "eyelidfeatures"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Bruckner Test",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "brucknerTest",
+                                    "leftSideHeader": "Bruckner Test",
+                                    "frontLabel": "Glow Brighter From",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "options": "brucknertest"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Type of Squint",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "typeOfSquint",
+                                    "leftSideHeader": "Type of Squint",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "typeofsquint"
+                                }
+                            ],
+                            "type": "addorremoverow",
+                            "name": "typeOfSquintRow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Cover Test / Alternate Cover Test",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "coverTestDistance",
+                                    "leftSideHeader": "Cover Test / Alternate Cover Test",
+                                    "label": "Distance",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "distance"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "coverTestNear",
+                                    "label": "Near",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "distance"
+                                }
+                            ],
+                            "type": "addorremoverow",
+                            "name": "coverTestRow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Control of Deviation",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "officeControl",
+                                    "leftSideHeader": "Control of Deviation",
+                                    "label": "Office Control",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "officecontrol"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "homeControl",
+                                    "label": "Home Control(Squint manifest in)",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "homecontrol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Patch Test",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "patchTest",
+                                    "leftSideHeader": "Patch Test",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "patchtest"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Dissociated Vertical Deviation",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "dissociatedVerticalDeviation",
+                                    "leftSideHeader": "Dissociated Vertical Deviation",
+                                    "required": false,
+                                    "options": "deviation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Dissociated Horizontal Deviation",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "dissociatedHorizontalDeviation",
+                                    "leftSideHeader": "Dissociated Horizontal Deviation",
+                                    "required": false,
+                                    "options": "deviation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Latent Manifest Nystagmus",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "latentManifestNystagmus",
+                                    "leftSideHeader": "Latent Manifest Nystagmus",
+                                    "required": false,
+                                    "options": "deviation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Eccentric Fixation",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "eccentricFixation",
+                                    "leftSideHeader": "Eccentric Fixation",
+                                    "required": false,
+                                    "options": "eccentricfixation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Fixation Preference",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "fixationPreference",
+                                    "leftSideHeader": "Fixation Preference",
+                                    "required": false,
+                                    "options": "fixationpreference"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Extra Ocular Movements (Versions)",
+                    "showHeader": true,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "statictext",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "statictext",
+                                    "label": "H"
+                                },
+                                {
+                                    "type": "statictext",
+                                    "label": "H"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "limitationOfOD",
+                                    "leftSideHeader": "Ductions",
+                                    "label": "Limitation of",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductions"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "limitationOfOS",
+                                    "label": "Limitation of",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductions"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ductionOD",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductionsvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ductionOS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductionsvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "alphabetPattern",
+                                    "leftSideHeader": "Alphabet Pattern",
+                                    "required": false,
+                                    "options": "alphabetpattern"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "obliqueOD",
+                                    "leftSideHeader": "Oblique Dysfunction",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunction"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "obliqueOS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunction"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "obliqueValuesOD",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "obliqueValuesOS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

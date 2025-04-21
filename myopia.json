@@ -1,0 +1,894 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Myopia",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Myopia",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "iclpRemarksOD",
+                                "leftSideHeader": "Notes",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 500,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "ageOfApparentText",
+                                "leftSideHeader": "Age of apparent onset of Myopia(years)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "usingSpectaclesText",
+                                "leftSideHeader": "Using Spectacles Since(years)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "usingContactLensText",
+                                "leftSideHeader": "Using Contact Lens Since(years)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AddDeleteSectionAccordianWithTable",
+            "section": [{
+                "header": "Spectacle powers",
+                "name": "spectaclePowers",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "Right Eye"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Left Eye"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "spectaclePowersSphRE",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "spectaclePowersSphLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "spectaclePowersCylRE",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "spectaclePowersCylLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "spectaclePowersAxisRE",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "spectaclePowersAxisLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "spectaclePowersDateSelection",
+                                "leftSideHeader": "Date",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "spectaclePowersRemarksText",
+                                "leftSideHeader": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "spectaclePowersStrategySelect",
+                                "leftSideHeader": "Using any anti-myopia strategy",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopiayesno"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "spectaclePowersCommentsText",
+                                "leftSideHeader": "Comments",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Family history",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "noOfMyopicParentsText",
+                                "leftSideHeader": "Number of myopic parents",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "noOfMyopicParentsSelect",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopicparents"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "noOfMyopicParentsTextArea",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "noOfMyopicCousinsText",
+                                "leftSideHeader": "Number of myopic siblings/cousins",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "noOfMyopicCousinsSelect",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopiccousins"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "noOfMyopicCousinsTextArea",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Environmental/Lifestyle conditions",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "timeSpentOutdoorsText",
+                                "leftSideHeader": "Time Spent Outdoors",
+                                "label": "on weekdays",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "timeSpentOutdoorsSelect",
+                                "leftSideHeader": "",
+                                "label": "per day",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopicenvconditions"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "timeSpentOutdoorsTextArea",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "timeSpentOutdoorsText1",
+                                "leftSideHeader": "",
+                                "label": "on weekends",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "timeSpentOutdoorsSelect1",
+                                "leftSideHeader": "",
+                                "label": "per day",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopicenvconditions"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "timeSpentOutdoorsTextArea1",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "totalNearWorkText",
+                                "leftSideHeader": "Total near work",
+                                "label": "on weekdays",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "totalNearWorkSelect",
+                                "leftSideHeader": "",
+                                "label": "per day",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopicenvconditions"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "totalNearWorkTextArea",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "totalNearWorkText1",
+                                "leftSideHeader": "",
+                                "label": "on weekends",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "totalNearWorkSelect1",
+                                "leftSideHeader": "",
+                                "label": "per day",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopicenvconditions"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "totalNearWorkTextArea1",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "type": "addorremoverow",
+                        "name": "viewingDistanceRow",
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "viewingDistanceSelect",
+                                "leftSideHeader": "Viewing Distance(cms)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "viewingdistance"
+                            },
+                            {
+                                "type": "text",
+                                "name": "viewingDistanceText",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "hobbyOfReadingSelect",
+                                "leftSideHeader": "Hobby of Reading",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "hobbyOfReadingSelect",
+                                        "showHideDependentControls": ["hobbyOfReadingIfYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "text",
+                                "name": "hobbyOfReadingIfYes",
+                                "leftSideHeader": "",
+                                "label": "If Yes",
+                                "required": false
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "sleepQualityTextArea",
+                                "leftSideHeader": "Sleep Quality",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 500,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "childReadsOrWriteSelect",
+                                "leftSideHeader": "Does child reads/writes before going to bed?",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "childReadsOrWriteSelect",
+                                        "showHideDependentControls": ["childReadsOrWriteHowLong","childReadsOrWriteIfYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "text",
+                                "name": "childReadsOrWriteHowLong",
+                                "frontLabel": "How Long",
+                                "labelPosition": "center",
+                                "required": false,
+                                "maxlength": 3,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                                
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "childReadsOrWriteIfYes",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "howlong"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "childUseSmartphoneSelect",
+                                "leftSideHeader": "Does child use smartphone before sleeping?",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "childUseSmartphoneSelect",
+                                        "showHideDependentControls": ["childUseSmartphoneHowLong","childUseSmartphoneIfYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "text",
+                                "name": "childUseSmartphoneHowLong",
+                                "frontLabel": "How Long",
+                                "labelPosition": "center",
+                                "required": false,
+                                "maxlength": 3,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                                
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "childUseSmartphoneIfYes",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "howlong"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "bedLightOnSelect",
+                                "leftSideHeader": "Is bed light 'ON' while sleeping?",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "bedLightOnSelect",
+                                        "showHideDependentControls": ["bedLightOnIfYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "text",
+                                "name": "bedLightOnIfYes",
+                                "label": "If Yes",
+                                "required": false,
+                                "maxlength": 25
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AddDeleteSectionAccordianWithTable",
+            "section": [{
+                "header": "Axial length(mm)",
+                "name": "axialLength",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "axialLengthRE",
+                                "label": "Right Eye",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "axialLengthLE",
+                                "label": "Left Eye",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "axialLengthDateSelection",
+                                "label": "Date",
+                                "required": false,
+                                "placeholder": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "axialLengthComments",
+                                "label": "Comments",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Relative Peripheral Refraction",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "Right Eye"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Left Eye"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "temporalMeridianRE",
+                                "leftSideHeader": "Temporal Meridian",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "temporalMeridianLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "nasalMeridianRE",
+                                "leftSideHeader": "Nasal Meridian",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "nasalMeridianLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 250,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Others",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "leadOrLagSelect",
+                                "leftSideHeader": "Lead/Lag of Accommodation(D) (Thorington method)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopialead"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "leadOrLagTextArea",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "leadOrLagSelect1",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "myopialead"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "leadOrLagTextArea1",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "phoriaDistanceSelect",
+                                "leftSideHeader": "Phoria status Distance(PD) (Thorington method)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "phoriastatusdistance"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "phoriaDistanceTextArea",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "phoriaNearSelect",
+                                "leftSideHeader": "Phoria status Near(PD) (Thorington method)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "phoriastatusdistance"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "phoriaNearTextArea",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "miscellaneousTextArea",
+                                "leftSideHeader": "Miscellaneous",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 500,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

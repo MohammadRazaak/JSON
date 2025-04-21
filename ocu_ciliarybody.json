@@ -1,0 +1,417 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Ciliary Body",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Ciliary Body",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "rowheader",
+                                    "label": "Size"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "horizontalOD",
+                                    "leftSideHeader": "Horizontal(mm)",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "horizontalOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "verticalOD",
+                                    "leftSideHeader": "Vertical(mm)",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "verticalOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "heightOD",
+                                    "leftSideHeader": "Height(mm)",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "heightOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "shapeOD",
+                                    "leftSideHeader": "Shape",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "tumorshape"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "shapeOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "tumorshape"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "surfaceOD",
+                                    "leftSideHeader": "Surface",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "irissurface"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "surfaceOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "irissurface"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "colorOD",
+                                    "leftSideHeader": "Color",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "iriscolor"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "colorOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "iriscolor"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "intrinsicVascularityOD",
+                                    "leftSideHeader": "Intrinsic Vascularity",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "intrinsicVascularityOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "feederVesselsOD",
+                                    "leftSideHeader": "Feeder Vessels",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "feederVesselsOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "nviOD",
+                                    "leftSideHeader": "NVI",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "nviOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "corectopiaOD",
+                                    "leftSideHeader": "Corectopia",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "corectopiaOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "ectropionUveaeOD",
+                                    "leftSideHeader": "Ectropion Uveae",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ectropionUveaeOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 14,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "acOD",
+                                    "leftSideHeader": "AC",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ac",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "acOD",
+                                            "dependentControls": ["acCellsFlareOD"],
+                                            "defaultOptions": "none",
+                                            "optionsMapping": {
+                                                "Cells": "cells",
+                                                "Flare": "pallorvalues",
+                                                "Tumor Seeding": "none"
+                                            },
+                                            "showHideDependentControls": ["acCellsFlareOD"],
+                                            "showHideControlBasedOnValue": ["Cells","Flare"]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "acOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ac",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "acOS",
+                                            "dependentControls": ["acCellsFlareOS"],
+                                            "defaultOptions": "none",
+                                            "optionsMapping": {
+                                                "Cells": "cells",
+                                                "Flare": "pallorvalues",
+                                                "Tumor Seeding": "none"
+                                            },
+                                            "showHideDependentControls": ["acCellsFlareOS"],
+                                            "showHideControlBasedOnValue": ["Cells","Flare"]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "acCellsFlareOD",
+                                    "label": "If Cells/Flare",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "cells"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "acCellsFlareOS",
+                                    "label": "If Cells/Flare",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "cells"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 15,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "angleOD",
+                                    "leftSideHeader": "Angle",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "angle"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "angleOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "angle"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 16,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "extensionOD",
+                                    "leftSideHeader": "Extension",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "extension"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extensionOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "extension"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 17,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "lensOD",
+                                    "leftSideHeader": "Lens",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lens"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "lensOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lens"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 18,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "impressionSummary",
+                                    "label": "",
+                                    "leftSideHeader": "Impression / Summary",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

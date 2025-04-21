@@ -1,0 +1,121 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Measurement of Squint",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Measurement of Squint",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "type": "addorremoverow",
+                            "name": "hcrtRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "hcrtSelectOD",
+                                    "leftSideHeader": "HCRT",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcrt"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "hcrtSelectOS",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcrt"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "hcrtOD",
+                                    "backLabel": "&Delta;",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "hcrtOS",
+                                    "backLabel": "&Delta;",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "type": "addorremoverow",
+                            "name": "krimskyTestRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "krimskyTestSelectOD",
+                                    "leftSideHeader": "Modified Krimsky Test",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcrt"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "krimskyTestSelectOS",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcrt"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "krimskyTestOD",
+                                    "backLabel": "&Delta;",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "krimskyTestOS",
+                                    "backLabel": "&Delta;",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

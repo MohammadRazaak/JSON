@@ -1,0 +1,416 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Early Intervention Assessment Report",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Early Intervention Assessment Report",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "firstName",
+                                "leftSideHeader": "Patient Name",
+                                "disabled": true,
+                                "label": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "uniqueIdentifierNumber",
+                                "leftSideHeader": "",
+                                "disabled": true,
+                                "frontLabel": "MRNo",
+                                "labelPosition": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "periodFrom",
+                                "leftSideHeader": "Period",
+                                "frontLabel": "From",
+                                "labelPosition": "center",
+                                "required": false,
+                                "placeholder": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "periodTo",
+                                "leftSideHeader": "",
+                                "frontLabel": "To",
+                                "labelPosition": "center",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "vision",
+                                "label": "",
+                                "leftSideHeader": "Vision",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "visionNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "visionDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "physiotherapy",
+                                "label": "",
+                                "leftSideHeader": "Physiotherapy",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "physiotherapyNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "physiotherapyDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "speech",
+                                "label": "",
+                                "leftSideHeader": "Speech",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "speechNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "speechDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "adls",
+                                "label": "",
+                                "leftSideHeader": "ADLs",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "adlsNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "adlsDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "specialEducation",
+                                "label": "",
+                                "leftSideHeader": "Special Education",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "specialEduNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "specialEduDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "stimulation",
+                                "label": "",
+                                "leftSideHeader": "Sensory Stimulation",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "stimulationNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "stimulationDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "behavior",
+                                "label": "",
+                                "leftSideHeader": "Behavior Modification",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "behaviorNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "behaviorDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "group",
+                                "label": "",
+                                "leftSideHeader": "Group Activities",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "groupNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "groupDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "others",
+                                "label": "",
+                                "leftSideHeader": "Others",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "othersNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "othersDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "progress",
+                                "label": "",
+                                "leftSideHeader": "Over All Progress",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "trainingoptions"
+                            },
+                            {
+                                "type": "text",
+                                "name": "progressNoOfSessions",
+                                "frontLabel": "No.of Sessions",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "progressDesc",
+                                "label": "",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

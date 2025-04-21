@@ -1,0 +1,1081 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Mobility Check List",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Mobility Check List",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "frequentlyTravel",
+                                "leftSideHeader": "How frquently you move out/travel in a month?",
+                                "label": "",
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": "alphaumeric"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "levelOfComfort",
+                                "leftSideHeader": "Grade your level of comfort/difficulty",
+                                "label": "General Safety to move out",
+                                "required": false,
+                                "options": "comfortlevel"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "TableWithoutAccordianWithWrap",
+            "section": [{
+                "header": "Pre Assessment",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": "Particulars"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Non priority - 0"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Never - 1"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Occasionally - 2"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Frequently 3"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Always - 4"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Dependent on your friends/family to move out"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "moveOutNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "moveOutGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "moveOutNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "moveOutGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "moveOutOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "moveOutGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "moveOutFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "moveOutGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "moveOutAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "moveOutGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Restricted to participate in outdoor activities involving movement"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "outdoorActivityNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "outdoorActivityGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "outdoorActivityNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "outdoorActivityGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "outdoorActivityOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "outdoorActivityGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "outdoorActivityFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "outdoorActivityGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "outdoorActivityAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "outdoorActivityGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "People show consideration in traffic situations"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "trafficNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "trafficGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "trafficNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "trafficGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "trafficOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "trafficGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "trafficFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "trafficGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "trafficAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "trafficGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Difficulty in Locating/ Searching objects"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "searchingNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "searchingGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "searchingNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "searchingGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "searchingOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "searchingGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "searchingFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "searchingGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "searchingAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "searchingGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Seating from rows of chairs"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "chairsNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "chairsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "chairsNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "chairsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "chairsOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "chairsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "chairsFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "chairsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "chairsAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "chairsGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Tend to bump, fall into objects/people"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bumpNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "bumpGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bumpNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "bumpGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bumpOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "bumpGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bumpFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "bumpGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bumpAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "bumpGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Mobility in day light"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "dayLightNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "dayLightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "dayLightNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "dayLightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "dayLightOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "dayLightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "dayLightFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "dayLightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "dayLightAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "dayLightGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Mobility at night time"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nightTimeNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "nightTimeGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nightTimeNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "nightTimeGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nightTimeOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "nightTimeGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nightTimeFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "nightTimeGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nightTimeAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "nightTimeGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Mobility in familiar place"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "familiarPlaceNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "familiarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "familiarPlaceNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "familiarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "familiarPlaceOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "familiarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "familiarPlaceFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "familiarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "familiarPlaceAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "familiarPlaceGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Mobility in an unfamiliar place"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "unFamiliarPlaceNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "unFamiliarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "unFamiliarPlaceNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "unFamiliarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "unFamiliarPlaceOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "unFamiliarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "unFamiliarPlaceFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "unFamiliarPlaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "unFamiliarPlaceAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "unFamiliarPlaceGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Climbing up stairs (Ascending)"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsAscNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsAscGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsAscNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsAscGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsAscOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsAscGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsAscFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsAscGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsAscAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsAscGroup"
+                            }
+                        ]
+                    },{
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Climbing down stairs (Descending)"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsDescNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsDescGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsDescNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsDescGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsDescOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsDescGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsDescFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsDescGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stairsDescAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "stairsDescGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Walking in a narrow lane (Foot Path)"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "narrowLaneNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "narrowLaneGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "narrowLaneNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "narrowLaneGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "narrowLaneOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "narrowLaneGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "narrowLaneFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "narrowLaneGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "narrowLaneAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "narrowLaneGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 15,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Walking in curbs"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "curbsNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "curbsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "curbsNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "curbsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "curbsOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "curbsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "curbsFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "curbsGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "curbsAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "curbsGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 16,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Mobility in a crowded environment"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crowdedEnvNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crowdedEnvGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crowdedEnvNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crowdedEnvGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crowdedEnvOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crowdedEnvGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crowdedEnvFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crowdedEnvGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crowdedEnvAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crowdedEnvGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 17,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Glare problem in sunlight"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sunlightNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "sunlightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sunlightNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "sunlightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sunlightOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "sunlightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sunlightFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "sunlightGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sunlightAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "sunlightGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 18,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Glare problem to vehicle headlight at night"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "glareProbNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "glareProbGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "glareProbNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "glareProbGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "glareProbOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "glareProbGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "glareProbFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "glareProbGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "glareProbAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "glareProbGroup"
+                            }
+                        ]
+                    },{
+                        "number": 19,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Difficulty to find way when left in a large open space"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "openSpaceNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "openSpaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "openSpaceNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "openSpaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "openSpaceOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "openSpaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "openSpaceFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "openSpaceGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "openSpaceAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "openSpaceGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 20,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Protect his/her body in anticipation of obstacles"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obstaclesNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "obstaclesGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obstaclesNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "obstaclesGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obstaclesOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "obstaclesGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obstaclesFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "obstaclesGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obstaclesAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "obstaclesGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 21,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Able to recognize using residual senses"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "residualNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "residualGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "residualNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "residualGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "residualOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "residualGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "residualFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "residualGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "residualAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "residualGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 22,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Crossing a street"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crossAStreetNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crossAStreetGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crossAStreetNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crossAStreetGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crossAStreetOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crossAStreetGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crossAStreetFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crossAStreetGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "crossAStreetAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "crossAStreetGroup"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 23,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Using a Public trasportation"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "publicTransNonPriority",
+                                "label": "",
+                                "required": false,
+                                "groupName": "publicTransGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "publicTransNever",
+                                "label": "",
+                                "required": false,
+                                "groupName": "publicTransGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "publicTransOccasionally",
+                                "label": "",
+                                "required": false,
+                                "groupName": "publicTransGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "publicTransFrequently",
+                                "label": "",
+                                "required": false,
+                                "groupName": "publicTransGroup"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "publicTransAlways",
+                                "label": "",
+                                "required": false,
+                                "groupName": "publicTransGroup"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Assessment Date",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "nextAssessmentDate",
+                                "leftSideHeader": "Next Assessment Date",
+                                "targetFieldName": "postAssessment",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "postAssessment",
+                                "leftSideHeader": "Post assessment after",
+                                "backLabel": "days",
+                                "labelPosition": "center",
+                                "required": false,
+                                "disabled": true
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Skills Training",
+            "fieldSetType": "NormalWrapWithoutAccordian",
+            "section": [
+                {
+                    "header": "Skills Training",
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "addorremoverow",
+                            "name": "skillsTrainingRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "mobileApplication",
+                                    "columnHeader": "Mobile Application",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "skills"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "sessionNumber",
+                                    "columnHeader": "Session Number",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "placeholder": "",
+                                    "disabled": true,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "particulars",
+                                    "columnHeader": "Particulars",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "status",
+                                    "columnHeader": "Status",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "status"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

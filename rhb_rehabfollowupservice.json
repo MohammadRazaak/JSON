@@ -1,0 +1,513 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Rehab Follow up service TB/LV",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Rehab Follow up service",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "typeOfDisability",
+                                    "leftSideHeader": "Type Of Disability",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "typeofdisability",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "typeOfDisability",
+                                            "showHideDependentControls": [
+                                                "typeOfDisabilityMultiple"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Multiple"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "typeOfDisabilityMultiple",
+                                    "label": "Type Of Disability",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "attender",
+                                    "leftSideHeader": "Attender",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "attender"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "purpose",
+                                    "leftSideHeader": "Purpose",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "followuppurpose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "history",
+                                    "label": "",
+                                    "leftSideHeader": "History",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "type": "addorremoverow",
+                            "name": "ordinalPositionRow",
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "rehabilitationManagement",
+                                    "label": "",
+                                    "leftSideHeader": "Rehabilitation Management",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Medical Certificate",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "medicalCertificate",
+                                    "leftSideHeader": "Eligibility to avail social benefits",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "medicalcertificate",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "medicalCertificate",
+                                            "showHideDependentControls": [
+                                                "socialBenefits"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "No"
+                                            ]
+                                        },
+                                        {
+                                            "triggerControl": "medicalCertificate",
+                                            "showHideDependentControls": [
+                                                "medicalCertificateNA"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "NA"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "socialBenefits",
+                                    "label": "Eligibility to avail social benefits",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "socialbenefits"
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "medicalCertificateNA",
+                                    "label": "Eligibility to avail social benefits",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "medicalCertificateInterest",
+                                    "leftSideHeader": "Client's interest in availing medical certificate",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "interestinmedicalcertificate",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "medicalCertificateInterest",
+                                            "showHideDependentControls": [
+                                                "medicalCertInterestNo"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "No"
+                                            ]
+                                        },
+                                        {
+                                            "triggerControl": "medicalCertificateInterest",
+                                            "showHideDependentControls": [
+                                                "futureVisits"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Will decide in future visit(s)"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "medicalCertInterestNo",
+                                    "label": "Client's interest in availing medical certificate",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "futureVisits",
+                                    "label": "Client's interest in availing medical certificate(If Will decide in future visit(s))",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "idMarkOne",
+                                    "label": "",
+                                    "leftSideHeader": "ID Mark 1",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "idMarkTwo",
+                                    "label": "",
+                                    "leftSideHeader": "ID Mark 2",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "preferredModeOfDelivery",
+                                    "leftSideHeader": "Preferred mode of Delivery",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "preferredmodeofdelivery",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "preferredModeOfDelivery",
+                                            "showHideDependentControls": [
+                                                "preferredModeOthers"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Others"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "preferredModeOthers",
+                                    "label": "Preferred mode of Delivery(If Others)",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "mobileNumber",
+                                    "label": "",
+                                    "leftSideHeader": "Mobile Number",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Referral",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "referral",
+                                    "leftSideHeader": "Referral",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "referral",
+                                            "showHideDependentControls": [
+                                                "referralYes",
+                                                "referralDesc"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "referralYes",
+                                    "leftSideHeader": "",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "referralyes"
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "referralDesc",
+                                    "label": "",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "purpose",
+                                    "leftSideHeader": "",
+                                    "label": "Purpose",
+                                    "required": false,
+                                    "options": "purpose",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "purpose",
+                                            "showHideDependentControls": [
+                                                "purposeOther"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Other"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "purposeOther",
+                                    "label": "",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "type": "addorremoverow",
+                            "name": "recommendationsRow",
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "recommendations",
+                                    "label": "",
+                                    "leftSideHeader": "Any other suggestions / Recommendations",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "therapist",
+                                    "leftSideHeader": "Consultation With Therapist",
+                                    "label": "Purpose",
+                                    "required": false,
+                                    "options": "therapist",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "therapist",
+                                            "showHideDependentControls": [
+                                                "therapistOther"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Other"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "therapistOthers",
+                                    "label": "",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Devices/Appliances taken",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "devicetaken",
+                                    "leftSideHeader": "Devices/Appliances taken",
+                                    "backLabel": "(Double click on option to add into this Text box )",
+                                    "targetFieldName": "devicetakentext",
+                                    "label": "",
+                                    "required": false,
+                                    "options": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "devicetakentext",
+                                    "label": "",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Remarks",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "remarks",
+                                    "label": "",
+                                    "leftSideHeader": "Remarks",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

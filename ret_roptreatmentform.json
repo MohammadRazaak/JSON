@@ -1,0 +1,511 @@
+{
+    "fieldsSet": [
+        {
+            "header":"ROP Treatment Form",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section":[ {
+                "header": "ROP Treatment Form",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "stageOD",
+                                "leftSideHeader": "Stage",
+                                "required": false,
+                                "label": "",
+                                "options": "higheststate" 
+                            },
+                            {
+                                "type": "radio",
+                                "name": "stageOS",
+                                "required": false,
+                                "label": "",
+                                "options": "higheststate" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prethresholdOD",
+                                "leftSideHeader": "Prethreshold",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            },
+                            {
+                                "type": "radio",
+                                "name": "prethresholdOS",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "thresholdOD",
+                                "leftSideHeader": "Threshold",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            },
+                            {
+                                "type": "radio",
+                                "name": "thresholdOS",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "leftSideHeader": "Diagnosis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "plusDiseaseOD",
+                                "leftSideHeader": "Plus disease",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            },
+                            {
+                                "type": "radio",
+                                "name": "plusDiseaseOS",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "checkbox",
+                                "name": "zoneOD",
+                                "leftSideHeader": "Zone",
+                                "label": "",
+                                "required": false,
+                                "options": "ropzone"
+                            },
+                            {
+                                "type": "checkbox",
+                                "name": "zoneOS",
+                                "required": false,
+                                "label": "",
+                                "options": "ropzone" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "noOfClockHoursOD",
+                                "leftSideHeader": "Clock hours",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "noofclockhours"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "noOfClockHoursOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "noofclockhours"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "noOfClockHoursToOD",
+                                "frontLabel": "to",
+                                "labelPosition": "center",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "noofclockhours"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "noOfClockHoursToOS",
+                                "frontLabel": "to",
+                                "labelPosition": "center",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "noofclockhours"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "leftSideHeader": "Treatment"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "type": "addorremoverow",
+                        "name": "cycroRow",
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "cycroOD",
+                                "leftSideHeader": "Cycro",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "cycroOS",
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "type": "addorremoverow",
+                        "name": "laserRow",
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "laserOD",
+                                "leftSideHeader": "Laser",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "laserOS",
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "type": "addorremoverow",
+                        "name": "beltBuckleRow",
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "beltBuckleOD",
+                                "leftSideHeader": "Belt buckle",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "beltBuckleOS",
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "type": "addorremoverow",
+                        "name": "vitrectomyRow",
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "vitrectomyOD",
+                                "leftSideHeader": "Vitrectomy",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "vitrectomyOS",
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "type": "addorremoverow",
+                        "name": "buckleDividedRow",
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "buckleDividedOD",
+                                "leftSideHeader": "Buckle divided",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "buckleDividedOS",
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 15,
+                        "type": "addorremoverow",
+                        "name": "noneFupRow",
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "noneFupOD",
+                                "leftSideHeader": "None(Fup)",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "noneFupOS",
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 16,
+                        "type": "addorremoverow",
+                        "name": "lostToFollowupRow",
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "lostToFollowupOD",
+                                "leftSideHeader": "Lost to followup",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "lostToFollowupOS",
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 17,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "finalDiagnosisOD",
+                                "leftSideHeader": "Final diagnosis",
+                                "label": ""
+                            },
+                            {
+                                "type": "datefield",
+                                "name": "finalDiagnosisOS",
+                                "label": ""
+                            },
+                            {
+                                "type": "radio",
+                                "name": "finalDiagnosisSelectOD",
+                                "required": false,
+                                "label": "",
+                                "options": "finaldiagnosis" 
+                            },
+                            {
+                                "type": "radio",
+                                "name": "finalDiagnosisSelectOS",
+                                "required": false,
+                                "label": "",
+                                "options": "finaldiagnosis" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 18,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "leftSideHeader": "Sequelae"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 19,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "discDragOD",
+                                "leftSideHeader": "Disc drag",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "discDragOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 20,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "macDragOD",
+                                "leftSideHeader": "Mac drag",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "macDragOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 21,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "discMacDragOD",
+                                "leftSideHeader": "Both disc + mac drag",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "discMacDragOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 22,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "glaucomaOD",
+                                "leftSideHeader": "Glaucoma",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "glaucomaOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 23,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cataractOD",
+                                "leftSideHeader": "Cataract",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cataractOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 24,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hypotonyOD",
+                                "leftSideHeader": "Hypotony",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hypotonyOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 25,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "visualAcuityOD",
+                                "leftSideHeader": "Visual Acuity",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "visualAcuityOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 26,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "iopOD",
+                                "leftSideHeader": "IOP",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "iopOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 27,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "refractiveErrorOD",
+                                "leftSideHeader": "Refractive error",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "refractiveErrorOS",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 28,
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "othersOD",
+                                "leftSideHeader": "Others",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "othersOS",
+                                "required": false
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

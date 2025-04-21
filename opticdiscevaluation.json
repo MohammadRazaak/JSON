@@ -1,0 +1,471 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Optic Disc Evaluation",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Optic Disc Evaluation",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "sizeSelectOD",
+                                "leftSideHeader": "Size",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticsize"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sizeSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticsize"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "shapeSelectOD",
+                                "leftSideHeader": "Shape",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticshape"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "shapeSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticshape"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "marginSelectOD",
+                                "leftSideHeader": "Margin",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticmargin",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "marginSelectOD",
+                                        "showHideDependentControls": ["blurredMarginOD"],
+                                        "showHideControlBasedOnValue": ["Blurred"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "marginSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticmargin",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "marginSelectOS",
+                                        "showHideDependentControls": ["blurredMarginOS"],
+                                        "showHideControlBasedOnValue": ["Blurred"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "blurredMarginOD",
+                                "label": "If Blurred",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "blurredMarginOS",
+                               "label": "If Blurred",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "colorSelectOD",
+                                "leftSideHeader": "Color",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticcolor",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "colorSelectOD",
+                                        "showHideDependentControls": ["pallorColorSelectOD","pallorColorValueOD"],
+                                        "showHideControlBasedOnValue": ["Pallor"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "colorSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticcolor",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "colorSelectOS",
+                                        "showHideDependentControls": ["pallorColorSelectOS","pallorColorValueOS"],
+                                        "showHideControlBasedOnValue": ["Pallor"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pallorColorSelectOD",
+                                "label": "If Pallor",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pallorColorSelectOS",
+                                "label": "If Pallor",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pallorColorValueOD",
+                                "label": "If Pallor",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "pallorvalues"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pallorColorValueOS",
+                                "label": "If Pallor",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "pallorvalues"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "cdratioSelectOD",
+                                "leftSideHeader": "C/D Ratio",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticcdratio"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "cdratioSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "opticcdratio"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "rimInferiorOD",
+                                "leftSideHeader": "Rim",
+                                "label": "Inferior",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "riminferior"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "rimInferiorOS",
+                                "label": "Inferior",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "riminferior"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "rimSuperiorOD",
+                                "label": "Superior",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "rimsuperior"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "rimSuperiorOS",
+                                "label": "Superior",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "rimsuperior"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "notchingSelectOneOD",
+                                "leftSideHeader": "Notching",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "notchingone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "notchingSelectOneOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "notchingone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "notchingSelectTwoOD",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "notchingtwo"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "notchingSelectTwoOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "notchingtwo"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "discHemorrhageOD",
+                                "leftSideHeader": "Disc Hemorrhage",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lashptosis",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "discHemorrhageOD",
+                                        "showHideDependentControls": ["discPresentOD"],
+                                        "showHideControlBasedOnValue": ["Present"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discHemorrhageOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lashptosis",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "discHemorrhageOS",
+                                        "showHideDependentControls": ["discPresentOS"],
+                                        "showHideControlBasedOnValue": ["Present"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discPresentOD",
+                                "label": "If Present",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "discPresentOS",
+                                "label": "If Present",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsOneOD",
+                                "leftSideHeader": "NFL Defects",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsOneOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsTwoOD",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectstwo"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsTwoOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectstwo"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsThreeOD",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsthree"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nflDefectsThreeOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nfldefectsthree"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "papilllaryOneOD",
+                                "leftSideHeader": "Para Papillary Atrophy",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lashptosis",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "papilllaryOneOD",
+                                        "showHideDependentControls": ["zoneOD"],
+                                        "showHideControlBasedOnValue": ["Present"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "papilllaryOneOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lashptosis",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "papilllaryOneOS",
+                                        "showHideDependentControls": ["zoneOS"],
+                                        "showHideControlBasedOnValue": ["Present"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "zoneOD",
+                                "label": "If Present",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "zone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "zoneOS",
+                                "label": "If Present",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "zone"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "papilllaryTwoOD",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "papilllaryTwoOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "papilllary"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "notesTextArea",
+                                "leftSideHeader": "Notes",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

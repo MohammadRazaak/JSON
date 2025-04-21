@@ -1,0 +1,1032 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Eua form",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Refraction",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "refractionSphOD",
+                                "leftSideHeader": "Sph",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "refractionSphOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "refractionCylOD",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "refractionCylOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "refractionAxisOD",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "refractionAxisLOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AddDeleteSectionAccordianWithTable",
+            "section": [{
+                "header": "Inserted Contact Lens Parameters",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpBaseCurveMMOD",
+                                "leftSideHeader": "Base curve(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpBaseCurveMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpSphOD",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpSphOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpCylOD",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpCylOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpAxisOD",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpAxisLOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpDiaMMOD",
+                                "leftSideHeader": "Dia(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpDiaMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "iclpBrandNameOD",
+                                "leftSideHeader": "Brand Name",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "brandname"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "iclpBrandNameOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "brandname"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "iclpRemarksOD",
+                                "leftSideHeader": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "iclpRemarksOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "iclpResultOD",
+                                "leftSideHeader": "Result",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "result"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "iclpResultOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "result"
+                            }
+                        ]
+                    }
+                ],
+                "name": "insertedcontactlensparameters"
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Fitting Assessment",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "fittingAssmntCoverageOD",
+                                "leftSideHeader": "Coverage",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "coverage"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "fittingAssmntCoverageOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "coverage"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntCentrationXOD",
+                                "leftSideHeader": "Centration",
+                                "label": "X(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntCentrationXOS",
+                                "label": "X(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntCentrationYOD",
+                                "label": "Y(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntCentrationYOS",
+                                "label": "Y(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "fittingAssmntDisplacementOD",
+                                "label": "Displacement",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "displacement"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "fittingAssmntDisplacementOS",
+                                "label": "Displacement",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "displacement"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntMovementOD",
+                                "label": "Amount(mm)",
+                                "leftSideHeader": "Movement",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntMovementOS",
+                                "label": "Amount(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntAirBubbleOD",
+                                "leftSideHeader": "Air Bubble",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntAirBubbleOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntTightnessOD",
+                                "leftSideHeader": "Tightness",
+                                "label": "%",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "fittingAssmntTightnessOS",
+                                "label": "%",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "fittingAssmntFlutingOD",
+                                "leftSideHeader": "Fluting",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "fittingAssmntFlutingOS",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "fittingAssmntRemarksOD",
+                                "leftSideHeader": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "fittingAssmntRemarksOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "fittingAssmntImpressionOD",
+                                "leftSideHeader": "Impression",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "impression"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "fittingAssmntImpressionOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "impression"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section":[ {
+                "header": "Over Contact Lens Refraction",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionSphOD",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionSphOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionCylOD",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionCylOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionAxisOD",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionAxisLOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Spherical Equivalence",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceSphOD",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceSphOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceCylOD",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceCylOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceAxisOD",
+                                "required": false,
+                                "leftSideHeader": "Axis",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceAxisLOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Final Contact Lens Parameters",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamBaseCurveMMOD",
+                                "leftSideHeader": "Base curve(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamBaseCurveMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerSphOD",
+                                "leftSideHeader": "Power",
+                                "label": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerSphOS",
+                                "label": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerCylOD",
+                                "label": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerCylOS",
+                                "label": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerAxisOD",
+                                "label": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerAxisOS",
+                                "label": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamDiaMMOD",
+                                "leftSideHeader": "Diameter(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamDiaMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "finalCLParamBrandNameOD",
+                                "leftSideHeader": "Brand Name",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "brandname"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "finalCLParamBrandNameOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "brandname"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "finalCLParamRemarksOD",
+                                "leftSideHeader": "BrRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "finalCLParamRemarksOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Notes",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                    "number": 2,
+                    "fields": [
+                        {
+                            "type": "textarea",
+                            "name": "notesOD",
+                            "leftSideHeader": "Notes",
+                            "required": false,
+                            "minlength": 1,
+                            "maxlength": 200,
+                            "pattern": "",
+                            "patternType": ""
+                        },
+                        {
+                            "type": "textarea",
+                            "name": "notesOS",
+                            "required": false,
+                            "minlength": 1,
+                            "maxlength": 200,
+                            "pattern": "",
+                            "patternType": ""
+                        }
+                    ]
+                }]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,3093 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Behavioural Assessment Scale",
+            "fieldSetType": "AccordianWithTable",
+            "section": [{
+                "header": "Behavioural Assessment Scale",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": "Behaviors"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Never"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Rarely"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Occasionally"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Frequently"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Always"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Violent and destructive behaviours"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Kicks others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kickOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kickOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kickOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kickOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kickOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pushes others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pushesOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pushesOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pushesOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pushesOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pushesOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pinches others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pinchesOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pinchesOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pinchesOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pinchesOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pinchesOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pulls hair, ear, body parts of others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsBodyPartsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsBodyPartsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsBodyPartsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsBodyPartsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsBodyPartsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Slap others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slapOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slapOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slapOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slapOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slapOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Hits others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Spits others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "spitsOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "spitsOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "spitsOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "spitsOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "spitsOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Bangs objects"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Slams doors"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slamsDoorsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slamsDoorsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slamsDoorsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slamsDoorsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "slamsDoorsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Bites others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Attacks or pokes others with weapon (blade, stick, pencil)"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "attacksWeaponNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "attacksWeaponRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "attacksWeaponOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "attacksWeaponFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "attacksWeaponAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Throws objects at others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "throwsObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "throwsObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "throwsObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "throwsObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "throwsObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 15,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Tears / pulls threads from own or other clothing"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsThreadsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsThreadsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsThreadsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsThreadsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsThreadsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 16,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Tears up own or others books, papers, magzines"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsUpNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsUpRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsUpOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsUpFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tearsUpAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 17,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Breaks objects / glass / toys"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "breaksObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "breaksObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "breaksObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "breaksObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "breaksObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 18,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Damages furniture"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "damagesFurnitureNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "damagesFurnitureRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "damagesFurnitureOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "damagesFurnitureFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "damagesFurnitureAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 19,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Temper Tantrums"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 20,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Cries excessively"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "criesExcessivelyNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "criesExcessivelyRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "criesExcessivelyOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "criesExcessivelyFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "criesExcessivelyAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 21,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Screams"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "screamsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "screamsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "screamsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "screamsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "screamsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 22,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Stamps feet"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stampsFeetNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stampsFeetRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stampsFeetOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stampsFeetFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stampsFeetAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 23,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Rolls on floor"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rollsOnFloorNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rollsOnFloorRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rollsOnFloorOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rollsOnFloorFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rollsOnFloorAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 24,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Misbehaves with others"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 25,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pulls objects from others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsObjectsOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsObjectsOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsObjectsOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsObjectsOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsObjectsOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 26,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Interrupts in between when others are talking"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "interruptsInBetweenNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "interruptsInBetweenRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "interruptsInBetweenOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "interruptsInBetweenFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "interruptsInBetweenAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 27,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Makes loud noise when others are working or reading"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesLoudNoiseNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesLoudNoiseRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesLoudNoiseOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesLoudNoiseFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesLoudNoiseAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 28,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Makes face to tease others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesFaceTeaseNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesFaceTeaseRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesFaceTeaseOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesFaceTeaseFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "makesFaceTeaseAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 29,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Uses abusive / vulgar language"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "usesAbusiveLangNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "usesAbusiveLangRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "usesAbusiveLangOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "usesAbusiveLangFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "usesAbusiveLangAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 30,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Takes others possession without their permission openly"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesPossessionNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesPossessionRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesPossessionOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesPossessionFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesPossessionAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 31,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Tells others what to do and wants his/her way (bossy)"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tellsOthersBossyNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tellsOthersBossyRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tellsOthersBossyOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tellsOthersBossyFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "tellsOthersBossyAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 32,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Self injurious behaviours"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 33,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Bangs head"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsHeadNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsHeadRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsHeadOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsHeadFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bangsHeadAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 34,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Bites self"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesSelfNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesSelfRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesSelfOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesSelfFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesSelfAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 35,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Cuts or mutilates self"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cutsSelfNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cutsSelfRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cutsSelfOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cutsSelfFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cutsSelfAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 36,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pulls own hair"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsOwnHairNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsOwnHairRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsOwnHairOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsOwnHairFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pullsOwnHairAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 37,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Scratches self"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "scratchesSelfNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "scratchesSelfRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "scratchesSelfOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "scratchesSelfFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "scratchesSelfAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 38,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Hits self"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsSelfNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsSelfRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsSelfOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsSelfFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hitsSelfAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 39,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Puts objects into eyes / noses / ear"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "putsObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "putsObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "putsObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "putsObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "putsObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 40,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Eats inedible things"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "eatsInedibleNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "eatsInedibleRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "eatsInedibleOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "eatsInedibleFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "eatsInedibleAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 41,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Peels skin / wounds"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peelsSkinNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peelsSkinRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peelsSkinOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peelsSkinFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peelsSkinAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 42,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Bites nails"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesNailsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesNailsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesNailsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesNailsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesNailsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 43,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Repetitive behaviours"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 44,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Rocks body"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rocksBodyNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rocksBodyRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rocksBodyOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rocksBodyFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "rocksBodyAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 45,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Nods head"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nodsHeadNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nodsHeadRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nodsHeadOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nodsHeadFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "nodsHeadAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 46,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Sucks thumb"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sucksThumbNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sucksThumbRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sucksThumbOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sucksThumbFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sucksThumbAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 47,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Makes peculiar sounds"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peculiarSoundsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peculiarSoundsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peculiarSoundsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peculiarSoundsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "peculiarSoundsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 48,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Bites ends of pen / pencil"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesEndsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesEndsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesEndsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesEndsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "bitesEndsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 49,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Snakes parts of the body repeatedly"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "snakesPartsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "snakesPartsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "snakesPartsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "snakesPartsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "snakesPartsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 50,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Grinds teeth"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "grindsTeethNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "grindsTeethRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "grindsTeethOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "grindsTeethFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "grindsTeethAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 51,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Swings round and round"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "swingsRoundNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "swingsRoundRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "swingsRoundOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "swingsRoundFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "swingsRoundAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 52,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Odd behaviours"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 53,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Laughs to self"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsSelfNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsSelfRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsSelfOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsSelfFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsSelfAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 54,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Laughs inappropriately"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsInappropriatelyNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsInappropriatelyRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsInappropriatelyOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsInappropriatelyFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "laughsInappropriatelyAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 55,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Talks to self"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "talksToSelfNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "talksToSelfRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "talksToSelfOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "talksToSelfFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "talksToSelfAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 56,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Hoards unwanted objects ( sticks, thread, pieces of old clothes)"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hoardsObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hoardsObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hoardsObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hoardsObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "hoardsObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 57,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Picks nose"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "picksNoseNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "picksNoseRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "picksNoseOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "picksNoseFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "picksNoseAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 58,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Play with unwanted objects like chappal, strings, faces and dirt excessively"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "playUnwantedObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "playUnwantedObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "playUnwantedObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "playUnwantedObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "playUnwantedObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 59,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Kisses, hugs, and licks people unnecsssarily"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kissesHugsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kissesHugsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kissesHugsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kissesHugsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "kissesHugsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 60,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Smells objects"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "smellsObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "smellsObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "smellsObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "smellsObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "smellsObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 61,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Hyperactivity"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 62,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Does not sit at one place for required time"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sitOnePlaceNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sitOnePlaceRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sitOnePlaceOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sitOnePlaceFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sitOnePlaceAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 63,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Does not pay attention to what is told"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "payAttentionNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "payAttentionRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "payAttentionOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "payAttentionFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "payAttentionAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 64,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Does not continue with the task at hand for required time"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "continueTaskNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "continueTaskRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "continueTaskOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "continueTaskFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "continueTaskAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 65,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Rebellious behaviours"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 66,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Refuses to obey commands"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "refuseToObeyNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "refuseToObeyRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "refuseToObeyOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "refuseToObeyFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "refuseToObeyAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 67,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Does opposite of what is required"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "doesOppositeNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "doesOppositeRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "doesOppositeOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "doesOppositeFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "doesOppositeAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 68,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Takes very long time intentionally to complete a task"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesLongTimeNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesLongTimeRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesLongTimeOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesLongTimeFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "takesLongTimeAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 69,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Wanders outside school"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "wandersOutsideNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "wandersOutsideRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "wandersOutsideOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "wandersOutsideFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "wandersOutsideAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 70,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Runs away from school"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "runsAwayNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "runsAwayRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "runsAwayOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "runsAwayFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "runsAwayAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 71,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Argues without purpose"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "arguesNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "arguesRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "arguesOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "arguesFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "arguesAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 72,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Antisocial behaviors"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 73,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Lies or twists the truth to his own advantage of blames others"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "liesOrTwistsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "liesOrTwistsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "liesOrTwistsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "liesOrTwistsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "liesOrTwistsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 74,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Cheats in games or no sense of fair play"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cheatsInGamesNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cheatsInGamesRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cheatsInGamesOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cheatsInGamesFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "cheatsInGamesAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 75,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Steals"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stealsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stealsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stealsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stealsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "stealsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 76,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Makes obscene gestures"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obsceneGesturesNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obsceneGesturesRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obsceneGesturesOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obsceneGesturesFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "obsceneGesturesAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 77,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Exposes body parts inappropriately"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "ExposesBodyNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "ExposesBodyRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "ExposesBodyOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "ExposesBodyFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "ExposesBodyAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 78,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Makes sexual advances towards members of opposite sex"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sexualAdvancesNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sexualAdvancesRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sexualAdvancesOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sexualAdvancesFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "sexualAdvancesAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 79,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Touches own private parts in public"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOwnNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOwnRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOwnOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOwnFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOwnAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 80,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Touches others private parts in public"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOthersNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOthersRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOthersOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOthersFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "touchesOthersAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 81,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Gambles"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "gamblesNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "gamblesRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "gamblesOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "gamblesFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "gamblesAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 82,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "Fears"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 83,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Fear of objects"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearObjectsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearObjectsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearObjectsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearObjectsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearObjectsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 84,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Fear of animals"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearAnimalsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearAnimalsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearAnimalsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearAnimalsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearAnimalsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 85,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Fear of places"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPlacesNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPlacesRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPlacesOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPlacesFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPlacesAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    },
+                    {
+                        "number": 86,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Fear of persons"
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPersonsNever",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPersonsRarely",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPersonsOccasionally",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPersonsFrequently",
+                                "label": "",
+                                "required": false
+                            },
+                            {
+                                "type": "singlecheckbox",
+                                "name": "fearPersonsAlways",
+                                "label": "",
+                                "required": false
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Assessment Date",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "nextAssessmentDate",
+                                "leftSideHeader": "Next Assessment Date",
+                                "targetFieldName": "postAssessment",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "postAssessment",
+                                "leftSideHeader": "Post assessment after",
+                                "backLabel": "days",
+                                "labelPosition": "center",
+                                "required": false,
+                                "disabled": true
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

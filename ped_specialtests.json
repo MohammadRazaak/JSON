@@ -1,0 +1,129 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Special Tests",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Special Tests",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "type": "addorremoverow",
+                            "name": "forceDuctionTestRow",
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "forceDuctionTestOD",
+                                    "leftSideHeader": "Force Duction Test",
+                                    "required": false,
+                                    "options": "forceductiontest"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "forceDuctionTestOS",
+                                    "required": false,
+                                    "options": "forceductiontest"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "forceDuctionTestSelectOD",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "globeretraction"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "forceDuctionTestSelectOS",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "globeretraction"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "type": "addorremoverow",
+                            "name": "forceGenerationTestRow",
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "forceGenerationTestOD",
+                                    "leftSideHeader": "Force Generation Test",
+                                    "required": false,
+                                    "options": "officecontrol"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "forceGenerationTestOS",
+                                    "required": false,
+                                    "options": "officecontrol"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "forceGenTestSelectOD",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "globeretraction"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "forceGenTestSelectOS",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "globeretraction"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "fatigueTest",
+                                    "leftSideHeader": "Fatigue Test",
+                                    "required": false,
+                                    "options": "fatiguetest"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "iceTest",
+                                    "leftSideHeader": "Ice Test",
+                                    "required": false,
+                                    "options": "fatiguetest"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

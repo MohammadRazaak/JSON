@@ -1,0 +1,2458 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Special Needs Vision Clinic (Adults) Follow-up form",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Special Needs Vision Clinic (Adults) Follow-up form",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "informant",
+                                    "leftSideHeader": "Informant",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "accompaniedBy",
+                                    "frontLabel": "Accompanied by",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "followUpVisit",
+                                    "leftSideHeader": "Follow-up Visit",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "duration",
+                                    "frontlabel": "Duration",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "durationdropdown",
+                                    "label": "",
+                                    "required": false,
+                                    "pattern": "",
+                                    "patternType": "",
+                                    "options": "ageofonset"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "ocularStatus",
+                                    "leftSideHeader": "Ocular status",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "naturesnvc",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "ocularStatus",
+                                            "showHideDependentControls": [
+                                                "natureProgressiveSelect"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Progressive"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "natureProgressiveSelect",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "snvcnatureprogressive"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "additionalMedicalHistory",
+                                    "leftSideHeader": "Additional medical history",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "visualObjectives",
+                                    "leftSideHeader": "Visual objectives",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "visualobjectives"
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "visualObjectivesText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "previouslyAdvisedRehabilitativeCare",
+                                    "leftSideHeader": "Previously advised rehabilitative care",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "education",
+                                    "leftSideHeader": "Education",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "employment",
+                                    "leftSideHeader": "Employment",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Clinical's observation",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "followTheInstruction",
+                                    "leftSideHeader": "Can the patient follow the instruction ?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "stereobehavior",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "followTheInstruction",
+                                            "showHideDependentControls": [
+                                                "followTheInstructionText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "No"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "followTheInstructionText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "maintainEyeContact",
+                                    "leftSideHeader": "Does the patient maintain eye contact while interacting ?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "stereobehavior",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "maintainEyeContact",
+                                            "showHideDependentControls": [
+                                                "maintaineyecontactTextarea"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "No"
+                                            ]
+                                        },
+                                        {
+                                            "triggerControl": "maintainEyeContact",
+                                            "showHideDependentControls": [
+                                                "maintaineyecontactText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "maintaineyecontactText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "maintaineyecontactTextarea",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "specificBehaviouralissue",
+                                    "leftSideHeader": "Any specific behavioural issues ?",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "additionalComments",
+                                    "leftSideHeader": "Additional comments",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "useOfGlasses",
+                                    "leftSideHeader": "Use of glasses",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "useOfGlasses",
+                                            "showHideDependentControls": [
+                                                "useofglassesText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "useofglassesText",
+                                    "leftSideHeader": "Duration",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Present glasses prescription",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassSphOD",
+                                    "leftSideHeader": "Sph",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                    "patternType": "decimal"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassSphOS",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                    "patternType": "decimal"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassCylOD",
+                                    "leftSideHeader": "Cyl",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                    "patternType": "decimal"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassCylOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                    "patternType": "decimal"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassAxisOD",
+                                    "leftSideHeader": "Axis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassAxisOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassPrismOD",
+                                    "leftSideHeader": "Prism",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassPrismOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassAddOD",
+                                    "leftSideHeader": "ADD",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "presentGlassAddOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "condition",
+                                    "leftSideHeader": "Condition of Glasses",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "duration",
+                                    "frontLabel": "Duration",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Clinical Examination",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "checkbox",
+                                    "name": "distanceVisualAcuity",
+                                    "leftSideHeader": "Distance visual acuity",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "options": "ccsc"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "illumination",
+                                    "frontLabel": "Illumination",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "HCVA"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "LCVA"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "hcvaOD",
+                                    "leftSideHeader": "OD",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "lcvaOD",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "hcvaOS",
+                                    "leftSideHeader": "OS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "lcvaOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "hcvaBO",
+                                    "leftSideHeader": "B/O",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "lcvaBO",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "chartUsed",
+                                    "leftSideHeader": "Chart used",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "remarksIfAny",
+                                    "leftSideHeader": "Remarks,if any",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "nearVisualAcuity",
+                                    "leftSideHeader": "Near visual acuity",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "options": "ccsc"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "illumination",
+                                    "frontLabel": "Illumination",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "nearVisualAcuityBO",
+                                    "frontLabel": "B/O",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "nearVisualAcuityAT",
+                                    "frontLabel": "AT",
+                                    "labelPosition": "center",
+                                    "backLabel": "cms",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "nearVisualAcuityWith",
+                                    "frontLabel": "With",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "backLabel": "Chart",
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "contrastSensitivity",
+                                    "leftSideHeader": "Contrast sensitivity (chart used)",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "sensitivityOD",
+                                    "frontLabel": "OD",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "sensitivityOS",
+                                    "frontLabel": "OS",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "sensitivityBO",
+                                    "frontLabel": "B/O",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "visualField",
+                                    "frontLabel": "Visual Field",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "toolUsed",
+                                    "frontLabel": "Tool Used",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "additionalTests",
+                                    "leftSideHeader": "Additional Tests",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "additionalTests",
+                                            "showHideDependentControls": [
+                                                "visualOrien",
+                                                "visualOrienTool",
+                                                "matchShapeSize",
+                                                "matchShapeSizeTool",
+                                                "facialExpress",
+                                                "facialExpressTool"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "visualOrien",
+                                    "frontLabel": "Visual Orientation",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "visualOrienTool",
+                                    "frontLabel": "Tool Used",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "matchShapeSize",
+                                    "frontLabel": "Matching shapes and sizes",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "matchShapeSizeTool",
+                                    "frontLabel": "Tool Used",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "facialExpress",
+                                    "frontLabel": "Identifying facial expression",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "facialExpressTool",
+                                    "frontLabel": "Tool Used",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "stereopsis",
+                                    "leftSideHeader": "Stereopsis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "stereopsisTool",
+                                    "frontLabel": "Tool Used",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "colorVision",
+                                    "leftSideHeader": "Color vision",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "colorVisionTool",
+                                    "frontLabel": "Tool Used",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "observationFix",
+                                    "leftSideHeader": "Observation",
+                                    "required": false,
+                                    "options": "fixation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Refraction",
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "paragraph",
+                            "label": "OBJECTIVE"
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": "DRY"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "objectiveSphOD",
+                                    "leftSideHeader": "Sph",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "objectiveSphOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "objectiveCylOD",
+                                    "leftSideHeader": "Cyl",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "objectiveCylOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "objectiveAxisOD",
+                                    "leftSideHeader": "Axis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "objectiveAxisOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "type": "paragraph",
+                            "label": "Subjective"
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": "DRY"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "subSphOD",
+                                    "leftSideHeader": "Sph",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "subSphOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "subCylOD",
+                                    "leftSideHeader": "Cyl",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "subCylOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "subAxisOD",
+                                    "leftSideHeader": "Axis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "subAxisOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "subBcvaOne",
+                                    "leftSideHeader": "BCVA",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcva"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "subBcvaDropOne",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcva"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "add",
+                                    "leftSideHeader": "Add",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "addDrop",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "bo"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "addText",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "backLabel": "cms",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "type": "paragraph",
+                            "label": "Objective"
+                        },
+                        {
+                            "number": 14,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": "CYCLO"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 15,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "cycloSphOD",
+                                    "leftSideHeader": "Sph",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "cycloSphOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 16,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "cycloCylOD",
+                                    "leftSideHeader": "Cyl",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "cycloCylOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 17,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "cycloAxisOD",
+                                    "leftSideHeader": "Axis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "cycloAxisOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 18,
+                            "type": "paragraph",
+                            "label": "Subjective"
+                        },
+                        {
+                            "number": 19,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": "CYCLO"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 20,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "cycloSubSphOD",
+                                    "leftSideHeader": "Sph",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "cycloSubSphOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 21,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "cycloSubCylOD",
+                                    "leftSideHeader": "Cyl",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "cycloSubCylOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 22,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "cycloSubAxisOD",
+                                    "leftSideHeader": "Axis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "cycloSubAxisOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 23,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "subBcvaTwo",
+                                    "leftSideHeader": "BCVA",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcva"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "subBcvaDropTwo",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcva"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 24,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "addTwo",
+                                    "leftSideHeader": "Add",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "addDropTwo",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "bo"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "addTextTwo",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "backLabel": "cms",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Glasses to be prescribed",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "glassPrescribed",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "feetmeter",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "glassPrescribed",
+                                            "dependentControls": [
+                                                "glassPrescribedBcvaOD",
+                                                "glassPrescribedBcvaOS"
+                                            ],
+                                            "defaultOptions": "hcva",
+                                            "optionsMapping": {
+                                                "Feet": "hcva",
+                                                "Meter": "hcvameter"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedSphOD",
+                                    "leftSideHeader": "Sph",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedSphOS",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedCylOD",
+                                    "leftSideHeader": "Cyl",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedCylOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedAxisOD",
+                                    "leftSideHeader": "Axis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedAxisLOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                    "patternType": "axis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedPrismOD",
+                                    "leftSideHeader": "Prism",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "glassPrescribedPrismLOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "glassPrescribedBcvaOD",
+                                    "leftSideHeader": "BCVA",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcva"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "glassPrescribedBcvaOS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "hcva"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "nearVisionODText",
+                                    "leftSideHeader": "Add For Near vision",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "nearVisionOSText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "nearVisionODDrop",
+                                    "leftSideHeader": "BCVA",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "bo"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "nearVisionOSDrop",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "bo"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "frameType",
+                                    "leftSideHeader": "Frame Type / Material",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "frametype"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "lensType",
+                                    "leftSideHeader": "Lens Type / Material",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lenstypecse"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "Tint",
+                                    "leftSideHeader": "Tint",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "tint"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "remarks",
+                                    "leftSideHeader": "Remarks",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "type": "addorremoverow",
+                            "name": "binocularVisionRow",
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "binocularVision",
+                                    "leftSideHeader": "Binocular vision",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "binocularVision",
+                                            "showHideDependentControls": [
+                                                "hcrtSelect",
+                                                "hcrtText",
+                                                "modifiedKrimskyTest",
+                                                "modifiedKrimskyText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "hcrtSelect",
+                                    "frontLabel": "HCRT",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "options": "hcrt"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "hcrtText",
+                                    "backLabel": "&deg;",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "modifiedKrimskyTest",
+                                    "frontLabel": "Modified Krimsky Test",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "options": "hcrt"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "modifiedKrimskyText",
+                                    "backLabel": "&Delta;",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 14,
+                            "type": "addorremoverow",
+                            "name": "coverTestDistanceRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "coverTestDistance",
+                                    "leftSideHeader": "Cover test/Alternate cover test",
+                                    "label": "Distance",
+                                    "required": false,
+                                    "options": "distance"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "coverTestNear",
+                                    "label": "Near",
+                                    "required": false,
+                                    "options": "distance"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 15,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "ocularMobility",
+                                    "leftSideHeader": "Ocular mobility",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 16,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "npcBreakPoint",
+                                    "leftSideHeader": "NPC",
+                                    "frontLabel": "Break point",
+                                    "backLabel": "cm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "npcRecoveryPoint",
+                                    "frontLabel": "Recovery point",
+                                    "backLabel": "cm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 17,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "npaOD",
+                                    "leftSideHeader": "NPA",
+                                    "frontLabel": "OD",
+                                    "backLabel": "cm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "npaOS",
+                                    "frontLabel": "OS",
+                                    "backLabel": "cm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "npaOU",
+                                    "frontLabel": "OU",
+                                    "backLabel": "cm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 18,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "sanetVision",
+                                    "leftSideHeader": "Sanet vision integrator",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 19,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "trailYokedPrisms",
+                                    "leftSideHeader": "Trial of yoked prisms",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "trailYokedPrisms",
+                                            "showHideDependentControls": [
+                                                "trailYokedPrismsText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "trailYokedPrismsText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 20,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "stereopsis",
+                                    "leftSideHeader": "Stereopsis",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 21,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "colorVisionTest",
+                                    "leftSideHeader": "Color vision",
+                                    "frontLabel": "Test administered",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "colorVisionOD",
+                                    "frontLabel": "OD",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "colorVisionOS",
+                                    "frontLabel": "OS",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 22,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "anteriorSegment",
+                                    "leftSideHeader": "Anterior segment",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "anteriorSegment",
+                                            "showHideDependentControls": [
+                                                "anteriorSegmentText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "anteriorSegmentText",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 23,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "posteriorSegment",
+                                    "leftSideHeader": "Posterior Segment",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "posteriorSegment",
+                                            "showHideDependentControls": [
+                                                "posteriorSegmentText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "posteriorSegmentText",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 24,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "trialOfAssisted",
+                                    "leftSideHeader": "Trial of Assisted devices",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "trialOfAssisted",
+                                            "showHideDependentControls": [
+                                                "trialOfDistance",
+                                                "trialOfNear",
+                                                "trialOfLenses",
+                                                "nonOpticalDevices"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "trialOfDistance",
+                                    "leftSideHeader": "Trial of distance vision devices",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "stereobehavior",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "trialOfDistance",
+                                            "showHideDependentControls": [
+                                                "trialOfDistanceDropOne",
+                                                "trialOfDistanceDropTwo",
+                                                "trialOfDistanceText",
+                                                "mostPreferredDist"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "trialOfDistanceDropOne",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "deviation"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "trialOfDistanceDropTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ccsc"
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "trialOfDistanceText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "mostPreferredDist",
+                                    "leftSideHeader": "",
+                                    "frontLabel": "Most preferred",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "mostPreferredDist",
+                                            "showHideDependentControls": [
+                                                "mostPreferredDYes"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "mostPreferredDYes",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "trialOfNear",
+                                    "leftSideHeader": "Trial of near vision devices",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "stereobehavior",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "trialOfNear",
+                                            "showHideDependentControls": [
+                                                "trialOfNearDropOne",
+                                                "trialOfNearDropTwo",
+                                                "trialOfNearText",
+                                                "mostPreferredNear"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "trialOfNearDropOne",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "deviation"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "trialOfNearDropTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ccsc"
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "trialOfNearText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "mostPreferredNear",
+                                    "leftSideHeader": "",
+                                    "frontLabel": "Most preferred",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "mostPreferredNear",
+                                            "showHideDependentControls": [
+                                                "mostPreferredNYes"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "mostPreferredNYes",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "trialOfLenses",
+                                    "leftSideHeader": "Trial of absorptive lenses",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "stereobehavior",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "trialOfLenses",
+                                            "showHideDependentControls": [
+                                                "trialOfLensesDrop",
+                                                "trialOfLensesText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "trialOfLensesDrop",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ccsc"
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "trialOfLensesText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "nonOpticalDevices",
+                                    "leftSideHeader": "Trial of non-optical devices",
+                                    "label": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "stereobehavior",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "nonOpticalDevices",
+                                            "showHideDependentControls": [
+                                                "nonOpticalDevicesText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "nonOpticalDevicesText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000
+                                }
+                            ]
+                        },
+                        {
+                            "number": 25,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "additionalComments",
+                                    "leftSideHeader": "Additional comments",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Plan of management",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "planOfManagement",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "otherTherapies",
+                                    "leftSideHeader": "Other therapies required",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "otherTherapies",
+                                            "showHideDependentControls": [
+                                                "otherTherapiesText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "otherTherapiesText",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "datefield",
+                                    "name": "followUpDate",
+                                    "leftSideHeader": "Follow-up Date",
+                                    "required": false,
+                                    "placeholder": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "followUpDateText",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

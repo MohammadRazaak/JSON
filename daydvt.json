@@ -1,0 +1,100 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Day DVT",
+            "fieldSetType": "AddDeleteSingleSectionAccordianWithTable",
+            "section": [{
+                "header": "Day DVT",
+                "name": "dayDVT",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "currenttimefield",
+                                "name": "timeOD",
+                                "leftSideHeader": "Time",
+                                "required": false,
+                                "placeholder": ""
+                            },
+                            {
+                                "type": "currenttimefield",
+                                "name": "timeOS",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "intraOcularPressureOD",
+                                "leftSideHeader": "Intra Ocular Pressure(mm Hg)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "intraOcularPressureOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "bloodPressureSP",
+                                "leftSideHeader": "Blood Pressure(mm Hg)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "bloodPressureDP",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

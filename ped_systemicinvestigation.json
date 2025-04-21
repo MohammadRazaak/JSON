@@ -1,0 +1,211 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Systemic Investigation",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Systemic Investigation",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "rowheader",
+                                    "label": "TORCH"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "igGOne",
+                                    "leftSideHeader": "",
+                                    "label": "Ig G",
+                                    "labelPosition": "center",
+                                    "backLabel": "&#47; &#181;L",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "igMOne",
+                                    "leftSideHeader": "",
+                                    "label": "Ig M",
+                                    "labelPosition": "center",
+                                    "backLabel": "&#47; &#181;L",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "torchSelect",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "torchlist",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "igGTwo",
+                                    "leftSideHeader": "",
+                                    "label": "Ig G",
+                                    "labelPosition": "center",
+                                    "backLabel": "&#47; &#181;L",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "igMTwo",
+                                    "leftSideHeader": "",
+                                    "label": "Ig M",
+                                    "labelPosition": "center",
+                                    "backLabel": "&#47; &#181;L",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "torchSelectTwo",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "torchlist",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "rowheader",
+                                    "label": "Blood Biochemistry"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "serumCalcium",
+                                    "leftSideHeader": "Serum Calcium",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "serumPhosphorus",
+                                    "leftSideHeader": "Serum Phosphorus",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "fastingBloodSugar",
+                                    "leftSideHeader": "Fasting Blood Sugar",
+                                    "labelPosition": "center",
+                                    "backLabel": "mg &#47; dL",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "rowheader",
+                                    "label": "Urine Biochemistry"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "aminoAcids",
+                                    "leftSideHeader": "Amino Acids",
+                                    "labelPosition": "center",
+                                    "backLabel": "mg &#47; dL",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "milkFeed",
+                                    "leftSideHeader": "Reducing Substances following milk feed",
+                                    "labelPosition": "center",
+                                    "backLabel": "mg &#47; dL",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

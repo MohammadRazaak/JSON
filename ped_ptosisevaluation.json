@@ -1,0 +1,345 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Ptosis Evaluation",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Ptosis Evaluation",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHtUMMOD",
+                                "leftSideHeader": "Palpebral Fissure Height",
+                                "label": "U(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHtUMMOS",
+                                "label": "U(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHtPMMOD",
+                                "label": "P(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHtPMMOS",
+                                "label": "P(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHtDMMOD",
+                                "label": "D(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHtDMMOS",
+                                "label": "D(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "MDR1OD",
+                                "leftSideHeader": "MRD1(mm)",
+                                "label": "",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "pedmdr1"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "MDR1OS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "pedmdr1"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "MDR2OD",
+                                "leftSideHeader": "MRD2(mm)",
+                                "label": "",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "mdr2ormdr3"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "MDR2OS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "mdr2ormdr3"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "MDR3OD",
+                                "leftSideHeader": "MRD3(mm)",
+                                "label": "",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "mdr2ormdr3"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "MDR3OS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "mdr2ormdr3"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "marcusGJWOD",
+                                "leftSideHeader": "Marcus Gunn Jaw Winking",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "marcusgunnjawwinking"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "marcusGJWOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "marcusgunnjawwinking"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "bellsPhenOD",
+                                "leftSideHeader": "Bells Phenomenon",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "bellsphenomenon"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "bellsPhenOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "bellsphenomenon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "cornealSensationsOD",
+                                "leftSideHeader": "Corneal Sensations",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "cornealSensations"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "cornealSensationsOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "cornealSensations"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "lagophthalmosOD",
+                                "leftSideHeader": "Lagophthalmos(mm)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lagophthalmos"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "lagophthalmosOS",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lagophthalmos"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "testsOD",
+                                "leftSideHeader": "Tests",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "pedptosistests"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "testsOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "pedptosistests"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "lpsActionOD",
+                                "leftSideHeader": "LPS Action",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "lps"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "lpsActionOS",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lps"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "lashPtosisOD",
+                                "leftSideHeader": "Lash Ptosis",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "lashptosis"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "lashPtosisOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lashptosis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "ptosisEMG",
+                                "leftSideHeader": "EMG",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "impressionSummaryOD",
+                                "label": "",
+                                "leftSideHeader": "Impression/Summary",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

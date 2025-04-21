@@ -1,0 +1,71 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Hertel’s Exophthalmomentry",
+            "fieldSetType": "HertelsPattern",
+            "section": [{
+                "header": "Hertels Exophthalmomentry",
+                "row": [
+                    {
+                        "number": 1,
+                        "type": "eyemeasurementsnormal",
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "baseReading",
+                                "label": "Base reading",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "type": "eyemeasurementsnormal",
+                        "fields": [
+                            {
+                                "type": "img",
+                                "srcPath": "/assets/images/Hertel.svg",
+                                "imgAlt": "Eye measurement diagram",
+                                "imgClass": "eye-diagram"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "type": "eyemeasurements",
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "od",
+                                "label": "OD",
+                                "backLabel": "mm",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "pattern": "",
+                                "patternType": "",
+                                "class": "eye-measurements"
+                            },
+                            {
+                                "type": "text",
+                                "name": "os",
+                                "label": "OS",
+                                "backLabel": "mm",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "pattern": "",
+                                "patternType": "",
+                                "class": "eye-measurements"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,983 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Stevens Johnsons Syndrome Form",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "Stevens Johnsons Syndrome Form",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "intervalPresentation",
+                                    "leftSideHeader": "Interval between acute SJS and presentation",
+                                    "backlabel": "Days/Months/Years",
+                                    "labelposition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "intervalOcularSymptoms",
+                                    "leftSideHeader": "Interval between acute SJS and ocular symptoms",
+                                    "backlabel": "Days/Months/Years",
+                                    "labelposition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "intervalReducedVision",
+                                    "leftSideHeader": "Interval between acute SJS and reduced vision",
+                                    "backlabel": "Days/Months/Years",
+                                    "labelposition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "History of SJS - Acute Phase",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "patientHistorySjs",
+                                    "leftSideHeader": "Does patient give clear history of SJS",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "patientHistorySjs",
+                                            "showHideDependentControls": [
+                                                "sjsOccurredAge"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        },
+                                        {
+                                            "triggerControl": "patientHistorySjs",
+                                            "showHideDependentControls": [
+                                                "ocularSymptomAge"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "No"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "sjsOccurredAge",
+                                    "frontLabel": "SJS occurred at what age by",
+                                    "backLabel": "Months/Years",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "ocularSymptomAge",
+                                    "frontLabel": "Ocular symptoms started at what age? ",
+                                    "backLabel": "Months/Years",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "historyOfChickenpox",
+                                    "leftSideHeader": "Does patient give history of chicken pox after which ocular symptoms started?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "drugIntakeCausingSjs",
+                                    "leftSideHeader": "Is there clear history of drug intake causing SJS",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "drugIntakeCausingSjs",
+                                            "showHideDependentControls": [
+                                                "drugKnown"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "drugKnown",
+                                    "leftSideHeader": "Drug Known",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "drugKnown",
+                                            "showHideDependentControls": [
+                                                "indicationForDrugYes",
+                                                "drugName"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        },
+                                        {
+                                            "triggerControl": "drugKnown",
+                                            "showHideDependentControls": [
+                                                "isTheIndicationKnown",
+                                                "indicationForDrugNo"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "No"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "indicationForDrugYes",
+                                    "label": "what indication was the drug given for",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "drugName",
+                                    "label": "Name of the drug",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "isTheIndicationKnown",
+                                    "label": "Is the indication known",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "indicationForDrugNo",
+                                    "label": "what indication was the drug given for",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "instillingMedications",
+                                    "leftSideHeader": "Did SJS start after instilling topical medications in the eye? ",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "instillingMedications",
+                                            "showHideDependentControls": [
+                                                "nameOfDrug",
+                                                "nameOfDrugText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "nameOfDrug",
+                                    "label": "Name of the drug known",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "nameOfDrugText",
+                                    "label": "Name of the drug",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "historyOrOralMucositis",
+                                    "leftSideHeader": "Does patient give history or oral mucositis at the time of SJS? ",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "acutePhaseKnown",
+                                    "leftSideHeader": "Are acute phase details known? ",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "stereobehavior"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "acutePhaseOnPaper",
+                                    "leftSideHeader": "Are acute phase details documented on paper?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "stereobehavior"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "documentNecrolysis",
+                                    "leftSideHeader": "Does patient have photos documenting necrolysis?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "patientHospitalised",
+                                    "leftSideHeader": "Was patient hospitalised in the acute phase",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "patientHospitalised",
+                                            "showHideDependentControls": [
+                                                "inWardIcu",
+                                                "daysHospitalised"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "inWardIcu",
+                                    "frontLabel": "Was it in the ward/ICU?",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "options": "wardicu"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "daysHospitalised",
+                                    "frontLabel": "Number of days of hospitalisation",
+                                    "backLabel": "Days/Months/Years",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "systemicSteroids",
+                                    "leftSideHeader": "Were systemic steroids given in the acute phase? Y/N",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "systemicSteroids",
+                                            "showHideDependentControls": [
+                                                "oralSteroids",
+                                                "ivSteroids",
+                                                "durationText"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "oralSteroids",
+                                    "frontLabel": "Were oral steroids given?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "ivSteroids",
+                                    "frontLabel": "Were IV steroids given?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "durationText",
+                                    "frontLabel": "Duration",
+                                    "backLabel": "Days",
+                                    "labelPosition": "center",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "ivCyclosporine",
+                                    "leftSideHeader": "Any other drugs given in the acute phase such as IV Cyclosporine, IVIG?",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "eyeInvolvedAcutePhase",
+                                    "leftSideHeader": "Was the eye involved in the acute phase?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 14,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "ophthalmologistAcutePhase",
+                                    "leftSideHeader": "Patient seen by an ophthalmologist in the acute phase?",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 15,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "topicalSteroids",
+                                    "leftSideHeader": "Were topical steroids started in the acute phase? Y/N",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 16,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "amtAcutePhase",
+                                    "leftSideHeader": "Was AMT done in the acute phase (acute phase is within 1 month of acute SJS)? Y/N",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "scoringGroup": "sjsscoringsystem",
+            "section": [
+                {
+                    "header": "SJS Scoring System",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": "Medical History"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "Yes/No"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "Score"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "suddenOnset",
+                                    "leftSideHeader": "Sudden onset of conjunctivitis",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "suddenOnsetScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "suddenOnsetScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "feverOrDrug",
+                                    "leftSideHeader": "Fever or drug intake preceding conjunctivitis",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "feverOrDrugScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "feverOrDrugScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "peelingSkin",
+                                    "leftSideHeader": "Associated with peeling of skin on pressure",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "peelingSkinScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "peelingSkinScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "lossNails",
+                                    "leftSideHeader": "Associated with loss of nails on fingers or toes",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "lossNailsScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "lossNailsScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "severeMorbidity",
+                                    "leftSideHeader": "Severe morbidity with admission in intensive care unit or burn ward",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "severeMorbidityScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "severeMorbidityScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "mucosalUlcers",
+                                    "leftSideHeader": "Associated with mucosal ulcers but not skin rash/blisters/bullae",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "mucosalUlcersScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "mucosalUlcersScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "recurrentMucosal",
+                                    "leftSideHeader": "Recurrent mucosal ulceration or rectal bleeding (melena)",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "recurrentMucosalScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "recurrentMucosalScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "type": "paragraph",
+                            "label": "General examination"
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "skinDiscoloration",
+                                    "leftSideHeader": "Skin discoloration",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "skinDiscolorationScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "skinDiscolorationScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "disfiguredNails",
+                                    "leftSideHeader": "Disfigured fingernails or toenails",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "disfiguredNailsScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "disfiguredNailsScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "posterior",
+                                    "leftSideHeader": "Posterior migration of mucocutaneous junction in the mouth",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "posteriorScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "posteriorScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "lidMargin",
+                                    "leftSideHeader": "Lid-margin keratinisation (in at least one eyelid)",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "lidMarginScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "lidMarginScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 14,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "distichiasis",
+                                    "leftSideHeader": "Distichiasis (in at least one eyelid)",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "scoring": {
+                                      "targetField": "distichiasisScore",
+                                      "values": {
+                                        "No": 0,
+                                        "Yes": 1
+                                      }
+                                    },
+                                    "operation": "add"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "distichiasisScore",
+                                    "disabled": true,
+                                    "isScoreField": true
+                                }
+                            ]
+                        },
+                        {
+                            "number": 15,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "totalScore",
+                                    "leftSideHeader": "Total Score",
+                                    "disabled": true,
+                                    "isTotalScore": true 
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [
+                {
+                    "header": "History of SYS - Chronic Phase",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "surgeriesBeforePresent",
+                                    "leftSideHeader": "Were ocular surgeries performed in the chronic phase,before presentation?Y/N",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "surgeriesBeforePresent",
+                                            "showHideDependentControls": ["eyeOperated","partOfEye","surgeryDone","eviscEnucleationRequired"],
+                                            "showHideControlBasedOnValue": ["Yes"]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "eyeOperated",
+                                    "label": "Which eye was operated?",
+                                    "required": false,
+                                    "pattern": "",
+                                    "patternType": "",
+                                    "options": "operated"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "partOfEye",
+                                    "label": "Part of eye for which surgery was done",
+                                    "required": false,
+                                    "pattern": "",
+                                    "patternType": "",
+                                    "options": "partofeye"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "surgeryDone",
+                                    "label": "Type of surgery done",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "eviscEnucleationRequired",
+                                    "label": "Was evisceration/enucleation required?",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "patientReferred",
+                                    "leftSideHeader": "Has patient been referred?",
+                                    "required": false,
+                                    "options": "myopiayesno",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "patientReferred",
+                                            "showHideDependentControls": [
+                                                "referralDiagnosis",
+                                                "reasonReferral"
+                                            ],
+                                            "showHideControlBasedOnValue": [
+                                                "Yes"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "referralDiagnosis",
+                                    "label": "Referral diagnosis:",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "textarea",
+                                    "name": "reasonReferral",
+                                    "label": "Reason for referral:",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "scleralLenses",
+                                    "leftSideHeader": "Has patient been referred for scleral lenses only?",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

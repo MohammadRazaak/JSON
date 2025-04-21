@@ -1,0 +1,322 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Paediatric Evaluation",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Paediatric Evaluation",
+                "showHeader": false,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "ageOfOnsetOD",
+                                "leftSideHeader": "Age of Onset",
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "ageOfOnsetOS",
+                                "leftSideHeader": "",
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "ageOfOnsetSelectOD",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "ageofonset"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "ageOfOnsetSelectOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "ageofonset"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "lateralityOD",
+                                "leftSideHeader": "Laterality",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "lateralityOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "distantDirectOD",
+                                "leftSideHeader": "Distant Direct Ophthalmoscopy",
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "distantDirectOS",
+                                "leftSideHeader": "",
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "retinalVesselsOD",
+                                "leftSideHeader": "Retinal Vessels seen through Undilated Pupil",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "retinalVesselsOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "undilatedCapacityOD",
+                                "leftSideHeader": "Undilated Pupil Obstructed by Opacity",
+                                "required": false,
+                                "options": "undilatedcapacity"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "undilatedCapacityOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "undilatedcapacity"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "nystagmusOD",
+                                "leftSideHeader": "Associated Nystagmus",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "nystagmusOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "strabismusOD",
+                                "leftSideHeader": "Associated Strabismus",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "strabismusOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "cataractOD",
+                                "leftSideHeader": "Cataract in Parent",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "cataractOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "cataractSiblingOD",
+                                "leftSideHeader": "Cataract in Sibling",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "cataractSiblingOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "options": "yesornowithicon"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "systemicDisease",
+                                "leftSideHeader": "Systemic Disease",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "systemicdisease"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "systemicDiseaseDesc",
+                                "leftSideHeader": "",
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "type": "addorremoverow",
+                        "name": "abnormalitiesRow",
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "abnormalitiesOD",
+                                "leftSideHeader": "Associated Ocular Abnormalities",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "abnormalities"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "abnormalitiesOS",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "abnormalities"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "abnormalitiesDescOD",
+                                "leftSideHeader": "",
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "abnormalitiesDescOS",
+                                "leftSideHeader": "",
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "type": "addorremoverow",
+                        "name": "typeOfCataractRow",
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "typeOfCataractOD",
+                                "leftSideHeader": "Type of Cataract",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "typeofcataract"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "typeOfCataractOS",
+                                "leftSideHeader": "",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "typeofcataract"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

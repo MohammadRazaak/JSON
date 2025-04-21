@@ -1,0 +1,885 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Socket Ocularistry Proforma",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Socket/Ocularistry Proforma",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "anophthalmiaSelect",
+                                "leftSideHeader": "Anophthalmia",
+                                "required": false,
+                                "label": "",
+                                "options": "anophthalmia"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "procedureDoneSelect",
+                                "leftSideHeader": "Procedure Done",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "proceduredone",
+                                "dependencies":[
+                                    {
+                                        "triggerControl":"procedureDoneSelect",
+                                        "showHideDependentControls":["procedureDoneEviseration"],
+                                        "showHideControlBasedOnValue":["Evisceration"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "procedureDoneEviseration",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "procedureEviseration"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "procedureDoneSelect",
+                                "leftSideHeader": "Implant Diameter(mm)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "implantdiameter"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "chiefComplaintTextArea",
+                                "leftSideHeader": "Chief Complaint",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Evaluation with Prosthesis",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prosthesisTypeSelect",
+                                "leftSideHeader": "Prosthesis Type",
+                                "required": false,
+                                "label": "",
+                                "options": "prosthesistype"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prosthesisStabilitySelect",
+                                "leftSideHeader": "Prosthesis Stability",
+                                "required": false,
+                                "label": "",
+                                "options": "prosthesisstability"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prosthesisComfortSelect",
+                                "leftSideHeader": "Prosthesis Comfort",
+                                "required": false,
+                                "label": "",
+                                "options": "rating"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "checkbox",
+                                "name": "prosthesisPosiDisplacement",
+                                "leftSideHeader": "Prosthesis Position(Primary gaze)",
+                                "label": "Displacement",
+                                "required": false,
+                                "options": "displacementcheckbox"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "prosthesisPositionHBT",
+                                "label": "HBT",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "hbt"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "prosthesisPosiDystopia",
+                                "label": "Vertical Dystopia",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "dystopia"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "prosthesisPositionDtls",
+                                "label": "Details",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "radio",
+                                "name": "prosthesisPositionTilt",
+                                "required": false,
+                                "label": "Tilt",
+                                "options": "lashptosis",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "prosthesisPositionTilt",
+                                        "showHideDependentControls": ["prosthesisPosTiltPresent"],
+                                        "showHideControlBasedOnValue": ["Present"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "radio",
+                                "name": "prosthesisPosTiltPresent",
+                                "required": false,
+                                "label": "If Present",
+                                "options": "utcpapillae"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "prosthesisPositionTiltDtls",
+                                "label": "Tilt Details",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prosthesisMotilVertical",
+                                "leftSideHeader": "Prosthesis Motility",
+                                "required": false,
+                                "label": "Vertical",
+                                "options": "ratinginwords"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "prosthesisMotilHorizontal",
+                                "required": false,
+                                "label": "Horizontal",
+                                "options": "ratinginwords"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "colorMatchL",
+                                "leftSideHeader": "Color Match",
+                                "label": "L",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "colormatch"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "colorMatchV",
+                                "label": "V",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "colormatch"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "colorMatchP",
+                                "label": "P",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "colormatch"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "image",
+                                "name": "hertels",
+                                "leftSideHeader": "Hertels(Base..)"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "type": "hertels",
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "baseReading",
+                                "label": "Base reading",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "img",
+                                "srcPath": "/assets/images/Hertel.svg",
+                                "imgAlt": "Eye measurement diagram",
+                                "imgClass": "eye-diagram"
+                            },
+                            {
+                                "type": "text",
+                                "name": "od",
+                                "label": "OD",
+                                "backLabel": "mm",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "pattern": "",
+                                "patternType": "",
+                                "class": "eye-measurements"
+                            },
+                            {
+                                "type": "text",
+                                "name": "os",
+                                "label": "OS",
+                                "backLabel": "mm",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "pattern": "",
+                                "patternType": "",
+                                "class": "eye-measurements"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "lagophthalmosGentle",
+                                "label": "Gentle Closure(mm)",
+                                "leftSideHeader": "Lagophthalmos",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            },
+                            {
+                                "type": "text",
+                                "name": "lagophthalmosForceful",
+                                "label": "Forceful Closure(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "saggingSelect",
+                                "leftSideHeader": "Lower eyelid sagging",
+                                "required": false,
+                                "label": "",
+                                "options": "sagging"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "sulcusDeformitySelect",
+                                "leftSideHeader": "Superior Sulcus Deformity",
+                                "required": false,
+                                "label": "",
+                                "options": "sulcusdeformity"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHeightOD",
+                                "label": "OD(mm)",
+                                "leftSideHeader": "Palpebral fissure height",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            },
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHeightOS",
+                                "label": "OS(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "ptosisSelect",
+                                "leftSideHeader": "Ptosis",
+                                "required": false,
+                                "label": "",
+                                "options": "lashptosis",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "ptosisSelect",
+                                        "showHideDependentControls": ["ptosisPresent"],
+                                        "showHideControlBasedOnValue": ["Present"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "radio",
+                                "name": "ptosisPresent",
+                                "required": false,
+                                "label": "If Present",
+                                "options": "utcpapillae"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "ptosisSelectDtls",
+                                "label": "Details",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "ptosisMRDOD",
+                                "label": "MRD OD(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            },
+                            {
+                                "type": "text",
+                                "name": "ptosisMRDOS",
+                                "label": "MRD OS(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            },
+                            {
+                                "type": "text",
+                                "name": "ptosisLPSAOD",
+                                "label": "LPSA OD(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            },
+                            {
+                                "type": "text",
+                                "name": "ptosisLPSAOS",
+                                "label": "LPSA OS(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "lowerEyelidRetractionSelect",
+                                "leftSideHeader": "Lower Eyelid Retraction(mm)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "eyelidretraction"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Evaluation without Prosthesis",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "bulbar",
+                                "leftSideHeader": "Conjunctiva",
+                                "label": "Bulbar",
+                                "required": false,
+                                "options": "bulbar"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "utc",
+                                "label": "UTC",
+                                "required": false,
+                                "options": "utc",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "utc",
+                                        "showHideDependentControls": ["utcPapillae"],
+                                        "showHideControlBasedOnValue": ["Papillae"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "radio",
+                                "name": "utcPapillae",
+                                "label": "If Papillae",
+                                "required": false,
+                                "options": "utcpapillae"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "lidSelect",
+                                "required": false,
+                                "leftSideHeader": "Lid",
+                                "label": "",
+                                "options": "lid",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "lidSelect",
+                                        "showHideDependentControls": ["lidAbnormal"],
+                                        "showHideControlBasedOnValue": ["Abnormal"]
+                                    }
+                                ]  
+                            },
+                            {
+                                "type": "radio",
+                                "name": "lidAbnormal",
+                                "required": false,
+                                "label": "If Abnormal",
+                                "options": "lidabnormal"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "lidDtls",
+                                "label": "Details",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "implantSelect",
+                                "leftSideHeader": "Implant",
+                                "required": false,
+                                "label": "",
+                                "options": "lashptosis"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "implantCentration",
+                                "label": "Centration",
+                                "required": false,
+                                "options": "implantcentration",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "implantCentration",
+                                        "showHideDependentControls": ["implantCentrationMigrated"],
+                                        "showHideControlBasedOnValue": ["Migrated"]
+                                    }
+                                ]  
+                            },
+                            {
+                                "type": "radio",
+                                "name": "implantCentrationMigrated",
+                                "label": "If Migrated",
+                                "required": false,
+                                "options": "implantcentrationmigrated"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "positionOfImplant",
+                                "label": "Position of Implant",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "positionofimplant"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "coverSelect",
+                                "required": false,
+                                "leftSideHeader": "Cover",
+                                "options": "cover"
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "socketContractureSelect",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "leftSideHeader": "Socket Contracture",
+                                "options": "socketcontracture"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "volumeAssessmentSelect",
+                                "leftSideHeader": "Volume Assessment",
+                                "required": false,
+                                "options": "volumeassessment"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "lagophthalmoswithoutGentle",
+                                "leftSideHeader": "Lagophthalmos",
+                                "label": "Gentle Closure(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            },
+                            {
+                                "type": "text",
+                                "name": "lagophthalmoswithout",
+                                "label": "Forceful Closure(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "saggingwithoutSelect",
+                                "leftSideHeader": "Lower eyelid sagging",
+                                "required": false,
+                                "label": "",
+                                "options": "sagging"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "sulcusDeformWithoutSelect",
+                                "leftSideHeader": "Superior Sulcus Deformity",
+                                "required": false,
+                                "label": "",
+                                "options": "sulcusdeformity"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHeightWOOD",
+                                "leftSideHeader": "Palpebral fissure height",
+                                "label": "OD(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            },
+                            {
+                                "type": "text",
+                                "name": "palpebralFissureHeightWOOS",
+                                "label": "OS(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 2,
+                                "pattern": "^(30|[12]?[0-9]|0)$",
+                                "patternType": "lag"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Evaluation of the Prosthesis(To be done by Ocularist)",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prosthesismaterial",
+                                "leftSideHeader": "Prosthesis make and duration",
+                                "required": false,
+                                "label": "Prosthesis material",
+                                "options": "prosthesismaterial"
+                            },
+                            {
+                                "type": "text",
+                                "name": "usingsince",
+                                "label": "Using since",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 35,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "lastpolishingdone",
+                                "label": "Last polishing done",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prosthesisAssessment",
+                                "leftSideHeader": "Assessment of prosthesis",
+                                "required": false,
+                                "label": "",
+                                "options": "prosthesisassessment"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "cosmesis",
+                                "leftSideHeader": "Prosthesis Quality",
+                                "required": false,
+                                "label": "Cosmesis",
+                                "options": "ratinginwords"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "fitting",
+                                "required": false,
+                                "label": "Fitting",
+                                "options": "ratinginwords"
+                            }
+                        ]
+                    },
+                    {
+                    "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "prosthesisVolumeText",
+                                "leftSideHeader": "Prosthesis Volume",
+                                "backLabel": "Cubic centimeter",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimalLoose"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "prosthesisWeightText",
+                                "leftSideHeader": "Prosthesis Weight",
+                                "backLabel": "grams",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimalLoose"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "prosthesisThicknessText",
+                                "leftSideHeader": "Prosthesis Thickness",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimalLoose"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "finalImpressionTextArea",
+                                "leftSideHeader": "Final Impression",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "adviceTextArea",
+                                "leftSideHeader": "Advice",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "patientSatisfactionSelect",
+                                "leftSideHeader": "Patient Satisfaction",
+                                "required": false,
+                                "label": "",
+                                "options": "rating"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

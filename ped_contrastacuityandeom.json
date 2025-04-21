@@ -1,0 +1,312 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Contrast Acuity & EOM",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Contrast Acuity & EOM",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "pielliChartOD",
+                                    "leftSideHeader": "Pielli Robinson Chart",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "pielliChartOS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "logMarChartOD",
+                                    "leftSideHeader": "Log MAR Chart",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "logMarChartOS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "photoTestOD",
+                                    "leftSideHeader": "Photo stress Test",
+                                    "frontLabel": "Time to recovery",
+                                    "backLabel": "secs",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "photoTestOS",
+                                    "frontLabel": "Time to recovery",
+                                    "backLabel": "secs",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODOneOne",
+                                    "leftSideHeader": "Extra Ocular Movements (Versions)",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODOneTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODOneThree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOSOneOne",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOsOneTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOSOneThree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODTwoOne",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "statictext",
+                                    "label": "H"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODTwoTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOSTwoOne",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "statictext",
+                                    "label": "H"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOSTwoTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODThreeOne",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODThreeTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularODThreeThree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOSThreeOne",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOsThreeTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "extraOcularOSThreeThree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "obliquedysfunctionvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "extraOcularODCheck",
+                                    "label": "Full & Free in all Directions",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "extraOcularOSCheck",
+                                    "backLabel": "Full & Free in all Directions",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "type": "addorremoverow",
+                            "name": "ductionsRow",
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "ductionsODOne",
+                                    "leftSideHeader": "Ductions",
+                                    "label": "Limitation of",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductions"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ductionsODTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductionsvalues"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ductionsOSOne",
+                                    "label": "Limitation of",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductions"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ductionsOSTwo",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "ductionsvalues"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

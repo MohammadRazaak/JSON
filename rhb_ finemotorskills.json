@@ -1,0 +1,825 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Fine Motor Skills",
+            "fieldSetType": "AccordianWithTable",
+            "section": [{
+                "header": "Fine Motor Skills",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": "Fine Motor Skills"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Right"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Left"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Remarks"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "REACH"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Forwards"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "forwardsRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "forwardsLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "forwardsRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Backwards"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "backwardsRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "backwardsLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "backwardsRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Sidewards"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sidewardsRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sidewardsLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "sidewardsRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Upwards"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "upwardsRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "upwardsLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "upwardsRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Downwards"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "downwardsRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "downwardsLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "downwardsRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "GRASP"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Palmar"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "palmarRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "palmarLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "palmarRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Cylindrical"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "cylindricalRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "cylindricalLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "cylindricalRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Spherical"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sphericalRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sphericalLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "sphericalRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Hook"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "hookRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "hookLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "hookRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "PREHENSION"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pulp to pulp(pincer)"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pulpRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pulpLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "pulpRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 15,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Tip to Tip(fine pincer)"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "tipRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "tipLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "tipRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 16,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Key Pinch"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "keyRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "keyLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "keyRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 17,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Medical Tripod"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "medicalRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "medicalLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "medicalRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 18,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Opponence"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "opponenceRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "opponenceLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "opponenceRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 19,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Cascading"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "cascadingRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "cascadingLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "cascadingRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 20,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "IN HAND MANIPULATION SKILLS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 21,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Translation"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "translationRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "translationLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "translationRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 22,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Rotation"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "rotationRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "rotationLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "rotationRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 23,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Shift"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "shiftRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "shiftLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "shiftRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 24,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Release"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "releaseRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "releaseLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "releaseRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 25,
+                        "fields": [
+                            {
+                                "type": "rowheader",
+                                "label": "STRENGTH"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 26,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Grip Strength"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "gripRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "gripLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "gripRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 27,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pinch Strength"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pinchRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pinchLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "pinchRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 28,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Hand Writing Skills"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "handRight",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "handLeft",
+                                "required": false,
+                                "options": "motorskills",
+                                "placeholder": "Choose"
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "handRemarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+
+
+
+        
+
+         
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Assessment Date",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "nextAssessmentDate",
+                                "leftSideHeader": "Next Assessment Date",
+                                "targetFieldName": "postAssessment",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "postAssessment",
+                                "leftSideHeader": "Post assessment after",
+                                "backLabel": "days",
+                                "labelPosition": "center",
+                                "required": false,
+                                "disabled": true
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

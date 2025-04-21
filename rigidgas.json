@@ -1,0 +1,1352 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Rigid Gas Permeable Lens",
+            "fieldSetType": "AddDeleteSectionAccordianWithTable",
+            "section": [{
+                "header": "Inserted Contact Lens Parameters",
+                "name": "insertedcontactlensparameters",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpBaseCurveMMOD",
+                                "leftSideHeader": "Base curve(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpBaseCurveMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpSphOD",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpSphOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpCylOD",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpCylOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpAxisOD",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpAxisOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "iclpDiaMMOD",
+                                "leftSideHeader": "Dia(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "iclpDiaMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "iclpRemarksOD",
+                                "leftSideHeader": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "iclpRemarksOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "iclpResultOD",
+                                "leftSideHeader": "Result",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "result"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "iclpResultOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "result"
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        },
+        {
+            "header": "",
+            "tabHeader": "Fitting Assessment",
+            "fieldSetType": "AccordianWithTableTabs",
+            "section": [
+                {
+                    "header": "Dynamic Fitting",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntPositionOD",
+                                    "columnHeader": "OD",
+                                    "leftSideHeader": "Position",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "position"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntPositionOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "position"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntStabilityOD",
+                                    "leftSideHeader": "Stability",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "stability"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntStabilityOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "stability"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntCentrationOD",
+                                    "leftSideHeader": "Centration",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "centration"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntCentrationOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "centration"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntMovTypeOD",
+                                    "leftSideHeader": "Movement",
+                                    "columnHeader": "OD",
+                                    "label": "Type",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "movementtype"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntMovTypeOS",
+                                    "columnHeader": "OS",
+                                    "label": "Type",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "movementtype"
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "fittingAssmntMovAmountOD",
+                                    "label": "Amount(mm)",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "placeholder": "",
+                                    "pattern": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "fittingAssmntMovAmountOS",
+                                    "label": "Amount(mm)",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 10,
+                                    "placeholder": "",
+                                    "pattern": ""
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntMovSpeedOD",
+                                    "label": "Speed",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "movementspeed"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntMovSpeedOS",
+                                    "label": "Speed",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "movementspeed"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntMovDirectionOD",
+                                    "columnHeader": "OD",
+                                    "label": "Direction",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "movementdirection"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntMovDirectionOS",
+                                    "label": "Direction",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "movementdirection"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntFOpticZoneOD",
+                                    "leftSideHeader": "Optic Zone covering Pupillary Area",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "options": "yesornowithicon"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntFOpticZoneOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "options": "yesornowithicon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "header": "Static Fitting",
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSCentralZoneOD",
+                                    "leftSideHeader": "Central Zone",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "centralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSCentralZoneOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "centralzone"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSMidPhZoneSIOD",
+                                    "leftSideHeader": "Mid Peripheral Zone",
+                                    "columnHeader": "OD",
+                                    "label": "Superior & Inferior",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ffittingAssmntSMidPhZoneSIOS",
+                                    "columnHeader": "OS",
+                                    "label": "Superior & Inferior",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSMidPhZoneNTOD",
+                                    "columnHeader": "OD",
+                                    "label": "Nasal & Temporal",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ffittingAssmntSMidPhZoneNTOS",
+                                    "columnHeader": "OS",
+                                    "label": "Nasal & Temporal",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSMidPhZone360OD",
+                                    "columnHeader": "OD",
+                                    "label": "360 Degree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "ffittingAssmntSMidPhZone360OS",
+                                    "columnHeader": "OS",
+                                    "label": "360 Degree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZoneSIOD",
+                                    "leftSideHeader": "Peripheral Zone",
+                                    "columnHeader": "OD",
+                                    "label": "Superior",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZoneSIOS",
+                                    "columnHeader": "OS",
+                                    "label": "Superior",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZoneIFOD",
+                                    "columnHeader": "OD",
+                                    "label": "Inferior",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZoneIFOS",
+                                    "columnHeader": "OS",
+                                    "label": "Inferior",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZoneHROD",
+                                    "columnHeader": "OD",
+                                    "label": "Horizontal",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZoneHROS",
+                                    "columnHeader": "OS",
+                                    "label": "Horizontal",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZone360OD",
+                                    "columnHeader": "OD",
+                                    "label": "360 Degree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "fittingAssmntSPheriZone360OS",
+                                    "columnHeader": "OS",
+                                    "label": "360 Degree",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "midperipheralzone"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntStainingOD",
+                                    "leftSideHeader": "3 & 9'O Clock Staining",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "options": "yesornowithicon"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntStainingOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "options": "yesornowithicon"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntEdgeLiftOD",
+                                    "leftSideHeader": "Edge Lift",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "options":"yesornowithicon"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntEdgeLiftOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "options": "yesornowithicon"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntPointTouchFitOD",
+                                    "leftSideHeader": "3 Point touch fit",
+                                    "columnHeader": "OD",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                },
+                                {
+                                    "type": "radio",
+                                    "name": "fittingAssmntPointTouchFitOS",
+                                    "columnHeader": "OS",
+                                    "required": false,
+                                    "options": "myopiayesno"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section":[ {
+                "header": "Over Contact Lens Refraction",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionSphOD",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionSphOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionCylOD",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionCylOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionAxisOD",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "overCLRefractionAxisLOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Over Contact Lens Acceptance",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "oclaSphOD",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "oclaSphOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "oclaCylOD",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "oclaCylOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "oclaAxisOD",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "oclaAxisLOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "oclaBCVAOD",
+                                "leftSideHeader": "BCVA",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "bcva"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "oclaBCVAOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "bcva"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "oclaNearVisionOD",
+                                "leftSideHeader": "Near Vision",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "oclaNearVisionOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "oclaNearVisionSelectOD",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvision"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "oclaNearVisionSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvision"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Spherical Equivalence",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceSphOD",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "sphericalEquivalenceSphOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "sphericalEquivalenceBCVAOD",
+                                "leftSideHeader": "BCVA",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "bcva"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sphericalEquivalenceBCVAOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "bcva"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "sphericalEquiNearVisionOD",
+                                "leftSideHeader": "Near Vision",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "sphericalEquiNearVisionOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sphericalEquiNVSelectOD",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvision"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "sphericalEquiNVSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvision"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Final Contact Lens Parameters",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamBaseCurveMMOD",
+                                "leftSideHeader": "Base curve(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamBaseCurveMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerOD",
+                                "leftSideHeader": "Power",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPowerOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamDiaMMOD",
+                                "leftSideHeader": "Diameter(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamDiaMMOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamOZOD",
+                                "leftSideHeader": "OZ(mm)",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamOZOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamTintOD",
+                                "leftSideHeader": "Tint",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamTintOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPCR1OD",
+                                "leftSideHeader": "PCR1",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPCR1OS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPCR2OD",
+                                "leftSideHeader": "PCR2",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamPCR2OS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "finalCLParamBCVAOD",
+                                "leftSideHeader": "BCVA",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "bcva"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "finalCLParamBCVAOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "bcva"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "finalCLParamNearVisionOD",
+                                "leftSideHeader": "Add for near vision over CL",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "finalCLParamNearVisionOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "finalCLParamNearVisionSelectOD",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvision"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "finalCLParamNearVisionSelectOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvision"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "finalCLParamRemarksOD",
+                                "leftSideHeader": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "finalCLParamRemarksOS",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Notes",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                    "number": 2,
+                    "fields": [
+                        {
+                            "type": "textarea",
+                            "name": "notesOD",
+                            "leftSideHeader": "Notes",
+                            "required": false,
+                            "minlength": 1,
+                            "maxlength": 200,
+                            "pattern": "",
+                            "patternType": ""
+                        },
+                        {
+                            "type": "textarea",
+                            "name": "notesOS",
+                            "required": false,
+                            "minlength": 1,
+                            "maxlength": 200,
+                            "pattern": "",
+                            "patternType": ""
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Advice to Patient",
+                "row": [{
+                    "number": 1,
+                    "fields": [
+                        {
+                            "type": "singlecheckbox",
+                            "name": "adviceToPatientCareRegimenExp",
+                            "label": "Care Regimen Explained",
+                            "required": false
+                        },
+                        {
+                            "type": "textarea",
+                            "name": "adviceToPatientRemarks",
+                            "required": false,
+                            "minlength": 1,
+                            "maxlength": 200,
+                            "pattern": "",
+                            "patternType": ""
+                        }
+                    ]
+                }]
+            }]
+        }
+    ]
+}

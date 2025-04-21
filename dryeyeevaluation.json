@@ -1,0 +1,966 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Dry Eye Evaluation",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Dry Eye Evaluation",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "schirmersTestOneOD",
+                                "leftSideHeader": "Schirmer's 1 Test(mm)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "schirmersTestOneOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "schirmersTestTwoOD",
+                                "leftSideHeader": "Schirmer's 2 Test(mm)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "schirmersTestTwoOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "conjunctivochalasisOD",
+                                "leftSideHeader": "Conjunctivochalasis",
+                                "required": false,
+                                "options": "lashptosis"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "conjunctivochalasisOS",
+                                "required": false,
+                                "options": "lashptosis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "impressionCytologyOD",
+                                "leftSideHeader": "Impression Cytology",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "impressionCytologyOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "tearOsmolarityOD",
+                                "leftSideHeader": "Tear osmolarity",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "tearOsmolarityOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "nibutOD",
+                                "leftSideHeader": "NIBUT(in sec)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "nibutOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "nibutRemarks",
+                                "label": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "tearMeniscusHeightOD",
+                                "leftSideHeader": "Tear meniscus height(mm)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "tearMeniscusHeightOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "tearMenHeighRemarks",
+                                "label": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "lipidLayerThicknessOD",
+                                "leftSideHeader": "Lipid layer thickness(mm)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "lipidLayerThicknessOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "lipidLayerRemarks",
+                                "label": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "ibiText",
+                                "leftSideHeader": "IBI(Interblik interval) in secs",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "screenTimingText",
+                                "leftSideHeader": "Screen timing in hours(TV, Mobile etc..)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "lacrimalGlandOD",
+                                "leftSideHeader": "Lacrimal gland, DATS(No.secretory openings)",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "lacrimalGlandOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "timeLagOD",
+                                "leftSideHeader": "Time Lag",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "timeLagOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "lacrimalGlandSizeOD",
+                                "leftSideHeader": "Lacrimal gland size",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lacrimalglandsize"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "lacrimalGlandSizeOS",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lacrimalglandsize"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Meibography",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "normalGlandsOD",
+                                "leftSideHeader": "Normal Glands",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "normalGlandsOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "dropOutGlandsOD",
+                                "leftSideHeader": "Drop Out Glands",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "dropOutGlandsOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "shortGlandsOD",
+                                "leftSideHeader": "Short Glands",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "shortGlandsOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "veryShortGlandsOD",
+                                "leftSideHeader": "Very Short Glands",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "veryShortGlandsOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "tortuousGlandsOD",
+                                "leftSideHeader": "Tortuous Glands",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "tortuousGlandsOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "number",
+                                "name": "fluffyAreasOD",
+                                "leftSideHeader": "Fluffy Areas",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "number",
+                                "name": "fluffyAreasOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "othersTextArea",
+                                "leftSideHeader": "Others",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "meibumExpressibilityUPLOD",
+                                "leftSideHeader": "Meibum expressibility",
+                                "label": "Upper lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "meibumExpressibilityUPLOS",
+                                "label": "Upper lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "meibumExpressibilityLWLOD",
+                                "label": "Lower lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "meibumExpressibilityLWLOS",
+                                "label": "Lower lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "meibumQualityUPLOD",
+                                "leftSideHeader": "Meibum quality",
+                                "label": "Upper lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "meibumQualityUPLOS",
+                                "label": "Upper lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "meibumQualityLWLOD",
+                                "label": "Lower lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "meibumQualityLWLOS",
+                                "label": "Lower lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "punctumUPLOD",
+                                "label": "Upper lid",
+                                "leftSideHeader": "Punctum",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "punctumUPLOS",
+                                "label": "Upper lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "punctumLWLOD",
+                                "label": "Lower lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "punctumLWLOS",
+                                "label": "Lower lid",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 20,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "file",
+                                "name": "fluoresceinStainingOD",
+                                "leftSideHeader": "Fluorescein staining",
+                                "multiple": true,
+                                "accept": ".pdf,.jpg,.png"
+                            },
+                            {
+                                "type": "file",
+                                "name": "fluoresceinStainingOS",
+                                "multiple": true,
+                                "accept": ".pdf,.jpg,.png"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "file",
+                                "name": "roseBengalStainingOD",
+                                "leftSideHeader": "Rose bengal staining",
+                                "multiple": true,
+                                "accept": ".pdf,.jpg,.png"
+                            },
+                            {
+                                "type": "file",
+                                "name": "roseBengalStainingOS",
+                                "multiple": true,
+                                "accept": ".pdf,.jpg,.png"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "file",
+                                "name": "lissamineGreenStainOD",
+                                "leftSideHeader": "Lissamine green staining",
+                                "multiple": true,
+                                "accept": ".pdf,.jpg,.png"
+                            },
+                            {
+                                "type": "file",
+                                "name": "lissamineGreenStainOS",
+                                "multiple": true,
+                                "accept": ".pdf,.jpg,.png"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Staining Score",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "OD"
+                            },
+                            {
+                                "type": "header",
+                                "label": "OS"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fluoresceinOD",
+                                "leftSideHeader": "Fluorescein",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "fluoresceinOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "roseBengalOD",
+                                "leftSideHeader": "Rose Bengal",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "roseBengalOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "lissamineGreenOD",
+                                "leftSideHeader": "Lissamine Green",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "lissamineGreenOS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "autoImmuneWorkUpSelect",
+                                "leftSideHeader": "Auto-immune work-up",
+                                "required": false,
+                                "options": "autoimmuneworkup",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "autoImmuneWorkUpSelect",
+                                        "showHideDependentControls": ["autoImmuneWorkUpCheckSelect"],
+                                        "showHideControlBasedOnValue": ["Indicated"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "checkbox",
+                                "name": "autoImmuneWorkUpCheckSelect",
+                                "label": "",
+                                "required": false,
+                                "options": "autoimmuneworkupcheckbox",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "autoImmuneWorkUpCheckSelect",
+                                        "showHideDependentControls": ["autoImmuneWorkUpOthers"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "textarea",
+                                "name": "autoImmuneWorkUpOthers",
+                                "label": "If Others",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "stainingRemarksTextArea",
+                                "leftSideHeader": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 25,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

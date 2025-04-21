@@ -1,0 +1,1334 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Visual Function Assessment",
+            "fieldSetType": "RowColumnWithMultipleFields",
+            "section": [{
+                "header": "Visual Function Assessment",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "resToLightObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Response to light",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "resToLightDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "resToLightResponseOD",
+                                "columnHeader": "Response",
+                                "label": "OD",
+                                "required": false,
+                                "options": "restolightresponse"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "resToLightResponseOS",
+                                "columnHeader": "Response",
+                                "label": "OS",
+                                "required": false,
+                                "options": "restolightresponse"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "resToLightResponseOU",
+                                "columnHeader": "Response",
+                                "label": "OU",
+                                "required": false,
+                                "options": "restolightresponse"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "leftSideHeader": "Focusing"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "faceFObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Face",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "faceFDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "faceFResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "focusing"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "illumToyFObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Illuminated Toy",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "illumToyFDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "illumToyFResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "focusing"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "nonIllumToyFObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Non Illuminated Toy",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nonIllumToyFDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "nonIllumToyFResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "focusing"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "torchFObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Torch",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "torchFDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "torchFResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "focusing"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "leftSideHeader": "Fixation of gaze"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "faceFOGObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Face",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "faceFOGDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "faceFOGResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "fixationofgaze"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "illumToyFOGObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Illuminated Toy",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "illumToyFOGDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "illumToyFOGResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "fixationofgaze"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "nonIllumToyFOGObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Non Illuminated Toy",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nonIllumToyFOGDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "nonIllumToyFOGResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "fixationofgaze"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "torchFOGObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Torch",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "torchFOGDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "torchFOGResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "fixationofgaze"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "shiftOfGazeObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Shift of gaze and saccades",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "shiftOfGazeDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "shiftOfGazeResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "shiftofgaze"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "speedFiveCMObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Speed and accuracy in small saccades (3-5 centimeters)",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "speedFiveCMDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "speedFiveCMResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "speedandaccuracy"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "speedTenCMObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Speed and accuracy in small saccades (3-10 centimeters)",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "speedTenCMDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "speedTenCMResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "speedandaccuracy"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 15,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "leftSideHeader": "Following movements and tracking"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 16,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "illumToyFMATObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Illuminated Toy",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "illumToyFMATDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "illumToyFMATResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "followingmovements"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 17,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "nonIllumToyFMATObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Non Illuminated Toy",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "nonIllumToyFMATDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "nonIllumToyFMATResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "followingmovements"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 18,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "convergenceObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Convergence",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "convergenceDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "convergenceResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "convergence"
+                            },
+                            {
+                                "type": "text",
+                                "name": "ifInsufficient",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false
+    
+                            }
+                        ]
+                    },
+                    {
+                        "number": 19,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "accommodationObject",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Accommodation",
+                                "required": false,
+                                "maxlength": 1000
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "accommodationDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "accommodationResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "accommodation"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 20,
+                        "fields": [
+                            
+                            {
+                                "type": "radiobutton",
+                                "name": "strabismusResponse",
+                                "columnHeader": "Response",
+                                "leftSideHeader": "Strabismus",
+                                "label": "",
+                                "required": false,
+                                "options": "strabismus"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 21,
+                        "fields": [
+                            
+                            {
+                                "type": "radiobutton",
+                                "name": "nystagmusResponse",
+                                "columnHeader": "Response",
+                                "leftSideHeader": "Nystagmus",
+                                "label": "",
+                                "required": false,
+                                "options": "lashptosis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 22,
+                        "fields": [
+                            
+                            {
+                                "type": "dropdown",
+                                "name": "blackPuzzleDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Response to Lea Black and White puzzle",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "blackPuzzleResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "responsetopuzzle"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 23,
+                        "fields": [
+                            
+                            {
+                                "type": "dropdown",
+                                "name": "colourPuzzleDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Response to Lea Colour puzzle",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "colourPuzzleResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "responsetopuzzle"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 24,
+                        "fields": [
+                            
+                            {
+                                "type": "radiobutton",
+                                "name": "sensitivityResponse",
+                                "columnHeader": "Response",
+                                "leftSideHeader": "Increased sensitivity to bright light",
+                                "label": "",
+                                "required": false,
+                                "options": "lashptosis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 25,
+                        "fields": [
+                            
+                            {
+                                "type": "dropdown",
+                                "name": "colourVisionDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Response to Color vision with charts",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "colourVisionResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "colourvision"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 26,
+                        "fields": [
+                            
+                            {
+                                "type": "dropdown",
+                                "name": "blackChartsDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Response to black and while charts",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "blackChartsResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "colourvision"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 27,
+                        "fields": [
+                            
+                            {
+                                "type": "dropdown",
+                                "name": "colourChartsDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Response to colour charts",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "colourChartsResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "colourvision"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 28,
+                        "fields": [
+                            
+                            {
+                                "type": "dropdown",
+                                "name": "threeDPuzzleDistance",
+                                "columnHeader": "Target Object/Distance",
+                                "leftSideHeader": "Response to Lea 3D colour Puzzles",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "restolightdistance"
+                            },
+                            {
+                                "type": "radiobutton",
+                                "name": "threeDPuzzleResponse",
+                                "columnHeader": "Response",
+                                "label": "",
+                                "required": false,
+                                "options": "threedpuzzle"
+                            }
+                        ]
+                    }
+                    
+                    
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "TableWithoutAccordianWithWrap",
+            "section": [{
+                "header": "Visual Acuity assessment with Puppet Face",
+                "showHeader": true,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": "Puppet Face"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Viewed @ half meter"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Equivalent @ 6 meter"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Decimal"
+                            },
+                            {
+                                "type": "header",
+                                "label": "LogMAR"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Visual Impairment"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Response"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-1 (16cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.5/36",
+                                "columnHeader": "Viewed @ half meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "6/432",
+                                "columnHeader": "Equivalent @ 6 meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.01",
+                                "columnHeader": "Decimal"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "1.85",
+                                "columnHeader": "LogMAR"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "Profound",
+                                "columnHeader": "Visual Impairment"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubOneResponse",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Response"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-2 (11cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.5/24",
+                                "columnHeader": "Viewed @ half meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "6/288",
+                                "columnHeader": "Equivalent @ 6 meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.02",
+                                "columnHeader": "Decimal"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "1.68",
+                                "columnHeader": "LogMAR"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "Profound",
+                                "columnHeader": "Visual Impairment"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubTwoResponse",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Response"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-3 (8cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.5/18",
+                                "columnHeader": "Viewed @ half meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "6/216",
+                                "columnHeader": "Equivalent @ 6 meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.03",
+                                "columnHeader": "Decimal"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "1.55",
+                                "columnHeader": "LogMAR"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "Profound",
+                                "columnHeader": "Visual Impairment"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubThreeResponse",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Response"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-4 (6cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.5/12",
+                                "columnHeader": "Viewed @ half meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "6/144",
+                                "columnHeader": "Equivalent @ 6 meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.04",
+                                "columnHeader": "Decimal"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "1.38",
+                                "columnHeader": "LogMAR"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "Profound",
+                                "columnHeader": "Visual Impairment"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFourResponse",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Response"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-5 (5cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.5/9",
+                                "columnHeader": "Viewed @ half meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "6/108",
+                                "columnHeader": "Equivalent @ 6 meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.06",
+                                "columnHeader": "Decimal"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "1.26",
+                                "columnHeader": "LogMAR"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "Severe",
+                                "columnHeader": "Visual Impairment"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFiveResponse",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Response"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-6 (2.5cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.5/6",
+                                "columnHeader": "Viewed @ half meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "6/72",
+                                "columnHeader": "Equivalent @ 6 meter"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "0.08",
+                                "columnHeader": "Decimal"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "1.08",
+                                "columnHeader": "LogMAR"
+                            },
+                            {
+                                "type": "datatext",
+                                "primaryText": "Severe",
+                                "columnHeader": "Visual Impairment"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubSixResponse",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Response"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "TableWithoutAccordianWithWrap",
+            "section": [{
+                "header": "Visual Fields Assessment with Puppet Face",
+                "showHeader": true,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": "Puppet Face"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Top Left"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Top Right"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Bottom left"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Bottom Right"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-1 (16cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubOneTL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubOneTR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Right"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubOneBL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubOneBR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom Right"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-2 (11cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubTwoTL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubTwoTR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Right"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubTwoBL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubTwoBR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom Right"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-3 (8cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubThreeTL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubThreeTR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Right"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubThreeBL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubThreeBR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom Right"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-4 (6cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFourTL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFourTR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Right"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFourBL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFourBR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom Right"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-5 (5cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFiveTL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFiveTR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Right"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFiveBL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubFiveBR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom Right"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "Pub-6 (2.5cm)",
+                                "columnHeader": "Puppet Face"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubSixTL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubSixTR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Top Right"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubSixBL",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom left"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "pubSixBR",
+                                "placeholder": "Choose",
+                                "options": "visualfieldsassessment",
+                                "columnHeader": "Bottom Right"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Remarks",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "remarks",
+                                "leftSideHeader": "Remarks",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Assessment Date",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "nextAssessmentDate",
+                                "leftSideHeader": "Next Assessment Date",
+                                "targetFieldName": "postAssessment",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "postAssessment",
+                                "leftSideHeader": "Post assessment after",
+                                "backLabel": "days",
+                                "labelPosition": "center",
+                                "required": false,
+                                "disabled": true
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

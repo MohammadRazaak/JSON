@@ -1,0 +1,615 @@
+{
+    "fieldsSet": [
+        {
+            "header": "ADMISSION FORM FOR EARLY INTERVENSION CUM EARLY EDUCATION",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Demographic details",
+                "showHeader": false,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "name",
+                                "leftSideHeader": "Name",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "datefield",
+                                "name": "dateOfBirth",
+                                "leftSideHeader": "Date of Birth(mm/dd/yyyy)",
+                                "label": "",
+                                "required": false,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "age",
+                                "leftSideHeader": "Age",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "gender",
+                                "leftSideHeader": "Gender",
+                                "required": false,
+                                "label": "",
+                                "options": "gender" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fatherName",
+                                "leftSideHeader": "Father's Name",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fatherAge",
+                                "leftSideHeader": "Age",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fatherEducation",
+                                "leftSideHeader": "Education",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "fatherOccupation",
+                                "leftSideHeader": "Occupation",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "motherName",
+                                "leftSideHeader": "Mother's Name",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "motherAge",
+                                "leftSideHeader": "Age",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "motherEducation",
+                                "leftSideHeader": "Education",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 12,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "motherOccupation",
+                                "leftSideHeader": "Occupation",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 13,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "combinedAnnalIncome",
+                                "leftSideHeader": "Combined Annal Income",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 14,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "presentAddress",
+                                "leftSideHeader": "Present Address",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 500,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 15,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "phoneNumber",
+                                "leftSideHeader": "Phone Number",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 16,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "mobileNumber",
+                                "leftSideHeader": "Mobile Number",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 17,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "email",
+                                "leftSideHeader": "Email Address",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Medical History",
+                "showHeader": false,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "diagnosis",
+                                "leftSideHeader": "Diagnosis",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 500,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "visionOD",
+                                "leftSideHeader": "Distant Vision OD",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "visionOS",
+                                "leftSideHeader": "Distant Vision OS",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "nvrate",
+                                "leftSideHeader": "NV",
+                                "label": "@",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "nvcms",
+                                "leftSideHeader": "",
+                                "label": "cms",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "fva",
+                                "leftSideHeader": "FVA",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 500,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Family History",
+                "showHeader": false,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "parentalConsanguinity",
+                                "leftSideHeader": "Parental Consanguinity",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "typeOfFamily",
+                                "leftSideHeader": "Type of family",
+                                "required": false,
+                                "label": "",
+                                "options": "typeoffamily" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "disability",
+                                "leftSideHeader": "Disability / Systemic disorder in the Family",
+                                "required": false,
+                                "label": "",
+                                "options": "birthasphyxia" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "socialRelationship",
+                                "leftSideHeader": "Social relationship of the child with parent",
+                                "required": false,
+                                "label": "",
+                                "options": "ratinginwords" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "socialRelationFriends",
+                                "leftSideHeader": "Social relationship of the child with Sibling / with friends",
+                                "required": false,
+                                "label": "",
+                                "options": "ratinginwords" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "socialRelationFamily",
+                                "leftSideHeader": "Social relationship of the child with other family members",
+                                "required": false,
+                                "label": "",
+                                "options": "ratinginwords" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "sibilingsParticulars",
+                                "leftSideHeader": "Sibilings Particulars",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Developmental History",
+                "showHeader": false,
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "additionalDisabilities",
+                                "leftSideHeader": "Developmental Delay / Additional disabilities",
+                                "required": false,
+                                "label": "",
+                                "options": "birthasphyxia" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "problem",
+                                "leftSideHeader": "Onset of the problem",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "checkbox",
+                                "name": "prevExaminations",
+                                "leftSideHeader": "Previous Examinations",
+                                "required": false,
+                                "label": "",
+                                "options": "prevexaminations" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "medicalTreatment",
+                                "leftSideHeader": "Previous Medical Treatment",
+                                "required": false,
+                                "label": "",
+                                "options": "medicaltreatment" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "prevRehabilitation",
+                                "leftSideHeader": "Previous Rehabilitation care / Therapy",
+                                "required": false,
+                                "label": "",
+                                "options": "myopiayesno" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "checkbox",
+                                "name": "recommendations",
+                                "leftSideHeader": "Recommendations",
+                                "required": false,
+                                "label": "",
+                                "options": "recommendations" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "followUp",
+                                "leftSideHeader": "Follow up",
+                                "required": false,
+                                "label": "",
+                                "options": "followup" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "professionalsInvolved",
+                                "leftSideHeader": "Professionals Involved",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "checkbox",
+                                "name": "assessment",
+                                "leftSideHeader": "Assessment",
+                                "required": false,
+                                "label": "",
+                                "options": "assessment" 
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Nystagmus Evaluation",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [{
+                "header": "Nystagmus Evaluation",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "typeSelect",
+                                "leftSideHeader": "Type",
+                                "required": false,
+                                "label": "",
+                                "options": "nystagmustype" 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "fastComponentSelect",
+                                "label": "",
+                                "leftSideHeader": "Direction of Fast Component",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "directionoffastComponent"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "amplitudeSelect",
+                                "leftSideHeader": "Amplitude",
+                                "label": "",
+                                "required": false,
+                                "options": "amplitude"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "frequencySelect",
+                                "leftSideHeader": "Frequency",
+                                "label": "",
+                                "required": false,
+                                "options": "frequency"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "radio",
+                                "name": "latentComponentSelect",
+                                "label": "",
+                                "leftSideHeader": "Latent Component",
+                                "required": false,
+                                "options": "lashptosis"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "latentComponentSelect2",
+                                "label": "",
+                                "required": false,
+                                "options": "lashptosis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "checkbox",
+                                "name": "characteristicsCheckbox",
+                                "leftSideHeader": "Characteristics",
+                                "label": "",
+                                "required": false,
+                                "options": "characterstics"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "nullPointSelect",
+                                "leftSideHeader": "Null Point",
+                                "label": "",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "nullpoint"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "nullGazeSelect",
+                                "leftSideHeader": "Null Gaze",
+                                "backLabel": "Neutral Point",
+                                "labelPosition": "center",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nullgaze"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "image",
+                                "name": "neutralPoint"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "nystagmoidMovementsSelect",
+                                "leftSideHeader": "Nystagmoid Movements",
+                                "label": "",
+                                "required": false,
+                                 "placeholder": "Choose",
+                                "options": "nystagmoidmovements"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "impressionSummaryOD",
+                                "label": "",
+                                "leftSideHeader": "Impression/Summary",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,639 @@
+{
+    "fieldsSet": [
+        {
+            "header": "Retina",
+            "fieldSetType": "NormalWithoutAccordian",
+            "section": [
+                {
+                    "header": "Retina",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "header",
+                                    "label": ""
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OD"
+                                },
+                                {
+                                    "type": "header",
+                                    "label": "OS"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "diameterOD",
+                                    "leftSideHeader": "Horizontal Corneal Diameter(mm)",
+                                    "required": false,
+                                    "options": "choroiddiameter",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "diameterOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "choroiddiameter",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "text",
+                                    "name": "iopOD",
+                                    "leftSideHeader": "IOP(mm Hg)",
+                                    "label": "",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 2,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "iopOS",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 2,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "currenttimefield",
+                                    "name": "timeOD",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": ""
+                                },
+                                {
+                                    "type": "currenttimefield",
+                                    "name": "timeOS",
+                                    "required": false,
+                                    "placeholder": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "anteriorSegmentOD",
+                                    "leftSideHeader": "Anterior Segment",
+                                    "required": false,
+                                    "options": "anteriorsegment",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "anteriorSegmentOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "anteriorsegment",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "rowheader",
+                                    "label": "Size of Mass"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "horizontalOD",
+                                    "leftSideHeader": "Horizontal(mm)",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "horizontalOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "verticalOD",
+                                    "leftSideHeader": "Vertical(mm)",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "verticalOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "heightOD",
+                                    "leftSideHeader": "Height(mm)",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "heightOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "options": "tumorhorizontal",
+                                    "placeholder": "Choose"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "shapeOfMassOD",
+                                    "leftSideHeader": "Shape of Mass",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "choroidshape"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "shapeOfMassOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "choroidshape"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "numberOD",
+                                    "leftSideHeader": "Number",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "choroidnumbers"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "numberOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "choroidnumbers"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "colorOD",
+                                    "leftSideHeader": "Color",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "choroidcolor"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "colorOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "choroidcolor"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "fields": [
+                                {
+                                    "type": "checkbox",
+                                    "name": "surfaceOD",
+                                    "leftSideHeader": "Surface",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "choroidsurface"
+                                },
+                                {
+                                    "type": "checkbox",
+                                    "name": "surfaceOS",
+                                    "leftSideHeader": "",
+                                    "label": "",
+                                    "required": false,
+                                    "options": "choroidsurface"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "vitreousSeedsOD",
+                                "leftSideHeader": "Vitreous Seeds",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "vitreousseeds"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "vitreousSeedsOS",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "vitreousseeds"
+                            }
+                            ]
+                        },
+                        {
+                            "number": 14,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "vitreousHemorrhageOD",
+                                    "leftSideHeader": "Vitreous Hemorrhage",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "vitreousHemorrhageOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 15,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "calcificationOD",
+                                    "leftSideHeader": "Calcification",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "calcificationOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 16,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "retinalDetachmentOD",
+                                    "leftSideHeader": "Retinal Detachment",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "retinalDetachmentOD",
+                                            "showHideDependentControls": ["retinalIfPresentOD"],
+                                            "showHideControlBasedOnValue": ["Present"]
+                                        }
+                                    ]   
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "retinalDetachmentOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis",
+                                    "dependencies": [
+                                        {
+                                            "triggerControl": "retinalDetachmentOS",
+                                            "showHideDependentControls": ["retinalIfPresentOS"],
+                                            "showHideControlBasedOnValue": ["Present"]
+                                        }
+                                    ]   
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "retinalIfPresentOD",
+                                    "label": "If Present",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "retinalifpresent"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "retinalIfPresentOS",
+                                    "label": "If Present",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "retinalifpresent"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 17,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "subRetinalFluidOD",
+                                    "leftSideHeader": "Sub Retinal Fluid",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "subRetinalFluidOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 18,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "visualSymptomsOD",
+                                    "leftSideHeader": "Visual Symptoms",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "visualSymptomsOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 19,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "peripapillaryLocationOD",
+                                    "leftSideHeader": "Peripapillary Location",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "peripapillaryLocationOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "lashptosis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 20,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "regressionOD",
+                                    "leftSideHeader": "Regression",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "regression"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "regressionOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "regression"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 21,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "metastasisOD",
+                                    "leftSideHeader": "Metastasis",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "metastasis"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "metastasisOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "metastasis"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 22,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "systemicAssociation",
+                                    "leftSideHeader": "Systemic Association",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "choroidsystemicassociation"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 23,
+                            "fields": [
+                                {
+                                    "type": "rowheader",
+                                    "label": "Regional Lymph Nodes"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 24,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "preAuricularOD",
+                                    "leftSideHeader": "Pre Auricular Nodes",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricular"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "preAuricularOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricular"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "preAuricularNodesOD",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricularnodes"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "preAuricularNodesOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricularnodes"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 25,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "subMandibularOD",
+                                    "leftSideHeader": "Sub Mandibular Nodes",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricular"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "subMandibularOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricular"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "subMandibularNodesOD",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricularnodes"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "subMandibularNodesOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricularnodes"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 26,
+                            "fields": [
+                                {
+                                    "type": "dropdown",
+                                    "name": "anteriorCervicalOD",
+                                    "leftSideHeader": "Anterior Cervical Nodes",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricular"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "anteriorCervicalOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricular"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "anteriorCervicalNodesOD",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricularnodes"
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "anteriorCervicalNodesOS",
+                                    "leftSideHeader": "",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "preauricularnodes"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 27,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "impressionSummary",
+                                    "label": "",
+                                    "leftSideHeader": "Impression / Summary",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 1000,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

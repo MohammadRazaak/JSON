@@ -1,0 +1,1015 @@
+{
+    "fieldsSet": [
+        {
+            "header":"Refractive Surgery ICL Evaluation",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Refractive Surgery ICL Evaluation",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "firstName",
+                                "leftSideHeader": "Patient Name",
+                                "disabled": true,
+                                "label": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "uniqueIdentifierNumber",
+                                "leftSideHeader": "MRNo",
+                                "disabled": true,
+                                "label": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Glasses Prescribed View",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "Right Eye"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Left Eye"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbSphRE",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbSphLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbCylRE",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbCylLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbAxisRE",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbAxisLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbPRISMRE",
+                                "leftSideHeader": "PRISM",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbPRISMLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbBaseRE",
+                                "leftSideHeader": "Base",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbBaseLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "glassesPrescrbBCVARE",
+                                "leftSideHeader": "BCVA",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "iclvisualacuityfeet"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "glassesPrescrbBCVALE",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "iclvisualacuityfeet"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbNearVRE",
+                                "leftSideHeader": "Add for Near Vision",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "glassesPrescrbNearVLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "glassesPrescrbRemarks",
+                                "leftSideHeader": "Remarks",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 1000,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Final Subjective Refraction",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "subjectiveRefraction",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "subjectiveselect"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "Right Eye"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Left Eye"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionSphRE",
+                                "leftSideHeader": "Sph",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionSphLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionCylRE",
+                                "leftSideHeader": "Cyl",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionCylLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionAxisRE",
+                                "leftSideHeader": "Axis",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            },
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionAxisLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^(1[0-7][0-9]|180|[1-9][0-9]?|0)$",
+                                "patternType": "axis"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionPRISMRE",
+                                "leftSideHeader": "PRISM",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionPRISMLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionBaseRE",
+                                "leftSideHeader": "Base",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionBaseLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 50,
+                                "placeholder": "",
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "subjRefractionBaseOriRE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "orientation"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "subjRefractionBaseOriLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "orientation"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "subjRefractionBCVAOriRE",
+                                "leftSideHeader": "BCVA",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "visualacuityfeet"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "subjRefractionBCVAOriLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "visualacuityfeet"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionNVRE",
+                                "leftSideHeader": "Add for Near Vision",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "subjectiveRefractionNVLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "placeholder": "",
+                                "pattern": "^[+-]?\\d*\\.?\\d+$",
+                                "patternType": "decimal"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "subjectiveRefracNVSelectRE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvisionresult"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "subjectiveRefracNVSelectLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "nearvisionresult"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "fields": [
+                            {
+                                "type": "textarea",
+                                "name": "subjectiveRefracRemarks",
+                                "leftSideHeader": "Remarks",
+                                "label": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithNormal",
+            "section": [{
+                "header": "Eye",
+                "row": [
+                    {
+                        "number": 1,
+                        "fields": [
+                            {
+                                "type": "header",
+                                "label": ""
+                            },
+                            {
+                                "type": "header",
+                                "label": "Right Eye"
+                            },
+                            {
+                                "type": "header",
+                                "label": "Left Eye"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "fields": [
+                            {
+                                "type": "dropdown",
+                                "name": "typeOfLensRE",
+                                "leftSideHeader": "Type of Lens",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lenstype"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "typeOfLensLE",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "lenstype"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "axialLengthRE",
+                                "leftSideHeader": "Axial Length",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "axialLengthLE",
+                                "leftSideHeader": "",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "axialLengthSelectRE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "axiallength",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "axialLengthSelectRE",
+                                        "showHideDependentControls": ["axialLengthOthersRE"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "axialLengthSelectLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "axiallength",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "axialLengthSelectLE",
+                                        "showHideDependentControls": ["axialLengthOthersLE"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "name": "axialLengthOthersRE",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "placeholder": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "axialLengthOthersLE",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "k1TextRE",
+                                "leftSideHeader": "K1",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "k1TextLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "k1AxisTextRE",
+                                "frontLabel": "Axis",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "k1AxisLE",
+                                "frontLabel": "Axis",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "k2TextRE",
+                                "leftSideHeader": "K2",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "k2TextLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 4,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "k2AxisTextRE",
+                                "frontLabel": "Axis",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "k2AxisLE",
+                                "frontLabel": "Axis",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "thicknessRE",
+                                "leftSideHeader": "Cental Corneal Thickness (Pachymetry)",
+                                "backLabel": "microns",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "text",
+                                "name": "thicknessLE",
+                                "leftSideHeader": "",
+                                "backLabel": "microns",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "thicknessSelectRE",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "axiallength",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "thicknessSelectRE",
+                                        "showHideDependentControls": ["thicknessOthersRE"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "thicknessSelectLE",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "axiallength",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "thicknessSelectLE",
+                                        "showHideDependentControls": ["thicknessOthersLE"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text",
+                                "name": "thicknessOthersRE",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "placeholder": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "thicknessOthersLE",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "placeholder": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "densityRE",
+                                "leftSideHeader": "Endothelial Cell Density",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            },
+                            {
+                                "type": "text",
+                                "name": "densityLE",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[a-zA-Z0-9 ]+$",
+                                "patternType": "alphanumeric"
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithTableAddRemove",
+            "section": [{
+                "header": "AC depth from the Endothelium",
+                "row": [
+                    {
+                        "number": 1,
+                        "type": "addorremoverow",
+                        "name": "endotheliumRow",
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "endotheliumRE",
+                                "columnHeader": "Right Eye",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "endotheliumSelectRE",
+                                "columnHeader": "Right Eye",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "axiallength",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "endotheliumSelectRE",
+                                        "showHideDependentControls": ["endotheliumOthersRE"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "text",
+                                "name": "endotheliumOthersRE",
+                                "columnHeader": "Right Eye",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "placeholder": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "endotheliumLE",
+                                "columnHeader": "Left Eye",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "endotheliumSelectLE",
+                                "leftSideHeader": "",
+                                "columnHeader": "Left Eye",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "axiallength",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "endotheliumSelectLE",
+                                        "showHideDependentControls": ["endotheliumOthersLE"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ]   
+                            },
+                            {
+                                "type": "text",
+                                "name": "endotheliumOthersLE",
+                                "columnHeader": "Left Eye",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 100,
+                                "placeholder": ""
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        },
+        {
+            "header":"",
+            "fieldSetType": "AccordianWithTableAddRemove",
+            "section": [{
+                "header": "Horizontal White to White",
+                "row": [
+                    {
+                        "number": 1,
+                        "type": "addorremoverow",
+                        "name": "horizontalWhiteToWhiteRow",
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "horizontalRE",
+                                "columnHeader": "Right Eye",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "horizontalSelectRE",
+                                "columnHeader": "Right Eye",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "horizontal"
+                            },
+                            {
+                                "type": "text",
+                                "name": "horizontalLE",
+                                "columnHeader": "Left Eye",
+                                "backLabel": "mm",
+                                "labelPosition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "placeholder": "",
+                                "pattern": "^[0-9]+$",
+                                "patternType": "numbersonly"
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "horizontalSelectLE",
+                                "columnHeader": "Left Eye",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "horizontal"
+                            }
+                        ]
+                    }
+                ]
+                
+            }]
+        }
+    ]
+}

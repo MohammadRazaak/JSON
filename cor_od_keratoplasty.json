@@ -1,0 +1,1468 @@
+{
+    "fieldsSet": [
+        {
+            "header": "OD Keratoplasty",
+            "fieldSetType": "AccordianWithNormalAndTableCombo",
+            "section": [{
+                "header": "Chief Complaints",
+                "showHeader": false,
+                "row": [
+                    {
+                        "number": 1,
+                        "type": "table",
+                        "repeatTableHeader": "true",
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "pain",
+                                "columnHeader": "Symptoms",
+                                "label": "Pain",
+                                "required": false
+                            },
+                            {
+                                "type": "text",
+                                "name": "painDuration",
+                                "columnHeader": "Duration",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "painDurationSelect",
+                                "columnHeader": "Duration",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "duration"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "type": "table",
+                        "repeatTableHeader": "false",
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "redness",
+                                "columnHeader": "Symptoms",
+                                "label": "Redness",
+                                "required": false
+                            },
+                            {
+                                "type": "text",
+                                "name": "rednessDuration",
+                                "columnHeader": "Duration",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "rednessDurationSelect",
+                                "columnHeader": "Duration",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "duration"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "type": "table",
+                        "repeatTableHeader": "false",
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "watering",
+                                "columnHeader": "Symptoms",
+                                "label": "Watering",
+                                "required": false
+                            },
+                            {
+                                "type": "text",
+                                "name": "wateringDuration",
+                                "columnHeader": "Duration",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "wateringDurationSelect",
+                                "columnHeader": "Duration",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "duration"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "type": "table",
+                        "repeatTableHeader": "false",
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "dv",
+                                "columnHeader": "Symptoms",
+                                "label": "D/V",
+                                "required": false
+                            },
+                            {
+                                "type": "text",
+                                "name": "dvDuration",
+                                "columnHeader": "Duration",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "dvDurationSelect",
+                                "columnHeader": "Duration",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "duration"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "type": "table",
+                        "repeatTableHeader": "false",
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "irritation",
+                                "columnHeader": "Symptoms",
+                                "label": "Irritation",
+                                "required": false
+                            },
+                            {
+                                "type": "text",
+                                "name": "irritationDuration",
+                                "columnHeader": "Duration",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "irritationDurationSelect",
+                                "columnHeader": "Duration",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "duration"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 6,
+                        "type": "table",
+                        "repeatTableHeader": "false",
+                        "fields": [
+                            {
+                                "type": "singlecheckbox",
+                                "name": "other",
+                                "columnHeader": "Symptoms",
+                                "label": "Other",
+                                "required": false
+                            },
+                            {
+                                "type": "text",
+                                "name": "otherDesc",
+                                "columnHeader": "Symptoms",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "otherDuration",
+                                "columnHeader": "Duration",
+                                "minlength": 1,
+                                "maxlength": 10,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "dropdown",
+                                "name": "otherDurationSelect",
+                                "columnHeader": "Duration",
+                                "required": false,
+                                "placeholder": "Choose",
+                                "options": "duration"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "type": "normal",
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "TMS No."
+                            },
+                            {
+                                "type": "text",
+                                "name": "tmsNo",
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "type": "normal",
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "SRI"
+                            },
+                            {
+                                "type": "text",
+                                "name": "sri",
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "type": "normal",
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "SAI"
+                            },
+                            {
+                                "type": "text",
+                                "name": "sai",
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 10,
+                        "type": "normal",
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "SIM K1"
+                            },
+                            {
+                                "type": "text",
+                                "name": "simk1",
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    },
+                    {
+                        "number": 11,
+                        "type": "normal",
+                        "fields": [
+                            {
+                                "type": "datatext",
+                                "primaryText": "SIM K2"
+                            },
+                            {
+                                "type": "text",
+                                "name": "simk2",
+                                "minlength": 1,
+                                "maxlength": 5,
+                                "pattern": "",
+                                "patternType": ""
+                            }
+                        ]
+                    }
+                ]
+            }]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithNormalAndTableCombo",
+            "section": [
+                {
+                    "header": "Slitlamp Examination",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "type": "normal",
+                            "fields": [
+                                {
+                                    "type": "datatext",
+                                    "primaryText": "LIDS"
+                                },
+                                {
+                                    "type": "checkbox",
+                                    "name": "lids",
+                                    "required": false,
+                                    "options": "lids"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "type": "normal",
+                            "fields": [
+                                {
+                                    "type": "datatext",
+                                    "primaryText": "CONJUNCTIVA"
+                                },
+                                {
+                                    "type": "checkbox",
+                                    "name": "conjunctiva",
+                                    "required": false,
+                                    "options": "conjuctiva"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "type": "normal",
+                            "fields": [
+                                {
+                                    "type": "datatext",
+                                    "primaryText": "CORNEA"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "type": "table",
+                            "repeatTableHeader": "true",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "clearGraft",
+                                    "columnHeader": "Graft",
+                                    "label": "Clear",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "clearField",
+                                    "columnHeader": "Graft",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 15,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "intactSutures",
+                                    "columnHeader": "Sutures",
+                                    "label": "Intact",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "intactNos",
+                                    "columnHeader": "(Nos.)",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "epiDefect",
+                                    "columnHeader": "Graft",
+                                    "label": "Epi defect",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "epiDefectField",
+                                    "columnHeader": "Graft",
+                                    "backLabel": "mm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "brokenSutures",
+                                    "columnHeader": "Sutures",
+                                    "label": "Broken",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "brokenNos",
+                                    "columnHeader": "(Nos.)",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "spkGraft",
+                                    "columnHeader": "Graft",
+                                    "label": "SPK",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "spkGraftSelect",
+                                    "columnHeader": "Graft",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "vascularisedSutures",
+                                    "columnHeader": "Sutures",
+                                    "label": "Vascularised",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "vascularisedNos",
+                                    "columnHeader": "(Nos.)",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "epiEdemaGraft",
+                                    "columnHeader": "Graft",
+                                    "label": "Epi.edema",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "epiEdemaSelect",
+                                    "columnHeader": "Graft",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "looseSutures",
+                                    "columnHeader": "Sutures",
+                                    "label": "Loose",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "looseNos",
+                                    "columnHeader": "(Nos.)",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "strEdemaGraft",
+                                    "columnHeader": "Graft",
+                                    "label": "Str.edema",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "strEdemaSelect",
+                                    "columnHeader": "Graft",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "otherSutures",
+                                    "columnHeader": "Sutures",
+                                    "label": "Other",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "otherNos",
+                                    "columnHeader": "(Nos.)",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 9,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "filamentsGraft",
+                                    "columnHeader": "Graft",
+                                    "label": "Filaments",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "filamentsSelect",
+                                    "columnHeader": "Graft",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 10,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "infiltrateGraft",
+                                    "columnHeader": "Graft",
+                                    "label": "Infiltrate",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "infiltrateField",
+                                    "columnHeader": "Graft",
+                                    "backLabel": "mm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 11,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "kpsraft",
+                                    "columnHeader": "Graft",
+                                    "label": "K.P.s",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "kpsSelect",
+                                    "columnHeader": "Graft",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 12,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "rejectionLine",
+                                    "columnHeader": "Graft",
+                                    "label": "Rejection line",
+                                    "required": false
+                                },
+                                {
+                                    "type": "checkbox",
+                                    "name": "rejectionLineCheckbox",
+                                    "columnHeader": "Graft",
+                                    "required": false,
+                                    "options": "rejectionline"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 13,
+                            "type": "table",
+                            "repeatTableHeader": "false",
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "otherGraft",
+                                    "columnHeader": "Graft",
+                                    "label": "Other",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "otherField",
+                                    "columnHeader": "Graft",
+                                    "backLabel": "mm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 14,
+                            "type": "normal",
+                            "fields": [
+                                {
+                                    "type": "datatext",
+                                    "primaryText": "GHJ"
+                                },
+                                {
+                                    "type": "checkbox",
+                                    "name": "ghjCornea",
+                                    "required": false,
+                                    "options": "ghj"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "ANTERIOR CHAMBER",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "deep",
+                                    "label": "Deep",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "exudates",
+                                    "label": "Exudates",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "exudatesNum",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "shallow",
+                                    "label": "Shallow",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "hypopyon",
+                                    "label": "Hypopyon",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "hypopyonNum",
+                                    "backLabel": "mm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "irregular",
+                                    "label": "Irregular",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "hyphaema",
+                                    "label": "Hyphaema",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "hyphaemaNum",
+                                    "backLabel": "mm",
+                                    "labelPosition": "center",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "placeholder": "",
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "PUPIL/IRIS",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "round",
+                                    "label": "Round",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "pi",
+                                    "label": "PI",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "pas",
+                                    "label": "PAS",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "pasNum",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "irregular",
+                                    "label": "Irregular",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "si",
+                                    "label": "SI",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "ps",
+                                    "label": "PS",
+                                    "required": false
+                                },
+                                {
+                                    "type": "dropdown",
+                                    "name": "psNum",
+                                    "required": false,
+                                    "placeholder": "Choose",
+                                    "options": "pallorvalues"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "LENS",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "clearLens",
+                                    "label": "Clear",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "aphakia",
+                                    "label": "Aphakia",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "iolCentered",
+                                    "label": "IOL Centered",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "nuclerSclerosis",
+                                    "label": "Nucler Sclerosis",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "pseudophakia",
+                                    "label": "Pseudophakia",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "decentered",
+                                    "label": "Decentered",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "pscLens",
+                                    "label": "PSC",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "aciolLens",
+                                    "label": "ACIOL",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "donesis",
+                                    "label": "Donesis",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "antCorticalCat",
+                                    "label": "Ant.Cortical cat",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "inTheBag",
+                                    "label": "in the bag",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "pcoLens",
+                                    "label": "PCO",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "datatext",
+                                    "primaryText": ""
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "suclus",
+                                    "label": "Suclus",
+                                    "required": false
+                                },
+                                {
+                                    "type": "datatext",
+                                    "primaryText": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "FUNDUS",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "notVisible",
+                                    "label": "Not Visible",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "bScan",
+                                    "label": "B.Scan",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "visible",
+                                    "label": "Visible",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "normal",
+                                    "label": "Normal",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "normalFundus",
+                                    "label": "Normal",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "abnormal",
+                                    "label": "Abnormal",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "abnormalFundus",
+                                    "label": "Abnormal",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "COMPLICATIONS",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "ped",
+                                    "label": "PED",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "rejection",
+                                    "label": "Rejection",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "infection",
+                                    "label": "Infection",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "astigmatism",
+                                    "label": "Astigmatism",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "dehiscence",
+                                    "label": "Dehiscence",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "recurrence",
+                                    "label": "Recurrence",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "primaryGraftFailue",
+                                    "label": "Primary Graft Failue",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "other",
+                                    "label": "Other",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "graftFailed",
+                                    "label": "Graft failed",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "recovered",
+                                    "label": "Recovered",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "VISUAL REHAB",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "glass",
+                                    "label": "Glass",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "cl",
+                                    "label": "CL",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "none",
+                                    "label": "None",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "TREATMENT SURGICAL",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "looseSuturesCut",
+                                    "label": "Loose sutures cut",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "looseSuturesCutNos",
+                                    "frontLabel": "Nos.",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "tightSuturesCut",
+                                    "label": "Tight sutures cut",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "tightSuturesCutNos",
+                                    "frontLabel": "Nos.",
+                                    "labelPosition": "center",
+                                    "minlength": 1,
+                                    "maxlength": 5,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "resuturing",
+                                    "label": "Resuturing",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "acReformation",
+                                    "label": "AC Reformation",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "akRics",
+                                    "label": "AK/RICS",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "lasikPRK",
+                                    "label": "LASIK/PRK",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 7,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "regraft",
+                                    "label": "Regraft",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 8,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "other",
+                                    "label": "Other",
+                                    "required": false
+                                },
+                                {
+                                    "type": "text",
+                                    "name": "otherDesc",
+                                    "minlength": 1,
+                                    "maxlength": 25,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "CAUSE OF LOW VISION(<6/18)",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "failedGraft",
+                                    "label": "Failed Graft",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "vitHge",
+                                    "label": "Vit Hge",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "rd",
+                                    "label": "RD",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "other",
+                                    "label": "Other",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "pco",
+                                    "label": "PCO",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "vitHaze",
+                                    "label": "Vit Haze",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "opticAtrophy",
+                                    "label": "Optic Atrophy",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "cataract",
+                                    "label": "Cataract",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "cme",
+                                    "label": "CME",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "rp",
+                                    "label": "RP",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "pupillaryMembrane",
+                                    "label": "Pupillary membrane",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "diabeticRetinopathy",
+                                    "label": "Diabetic Retinopathy",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "macularPathology",
+                                    "label": "Macular Pathology",
+                                    "required": false
+                                }
+                            ]
+                        },
+                        {
+                            "number": 5,
+                            "fields": [
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "iolMmalposition",
+                                    "label": "IOL malposition",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "endophthalmtis",
+                                    "label": "Endophthalmtis",
+                                    "required": false
+                                },
+                                {
+                                    "type": "singlecheckbox",
+                                    "name": "amblyopia",
+                                    "label": "Amblyopia",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "",
+            "fieldSetType": "AccordianWithTable",
+            "section": [
+                {
+                    "header": "Remarks",
+                    "showHeader": false,
+                    "row": [
+                        {
+                            "number": 1,
+                            "fields": [
+                                {
+                                    "type": "textarea",
+                                    "name": "remarks",
+                                    "required": false,
+                                    "minlength": 1,
+                                    "maxlength": 200,
+                                    "pattern": "",
+                                    "patternType": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
