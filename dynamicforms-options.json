@@ -4227,5 +4227,25 @@
             "key": "Suggested maintaining consistency in applying behavioral strategies across all environments, ensuring collaboration with all family members.",
             "label": "Suggested maintaining consistency in applying behavioral strategies across all environments, ensuring collaboration with all family members."
         }
+    ],
+
+    "additionalDisabilities" :  [
+        { "key" : "Speech " , "label" : "Speech "},
+        { "key" : "Cognition" , "label" : "Cognition"},
+        { "key" : "Hearing" , "label" : "Hearing"},
+        { "key" : "Social & Emotional" , "label" : "Social & Emotional"},
+        { "key" : "Motor" , "label" : "Motor"},
+        { "key" : "Vision" , "label" : "Vision"},
+        { "key" : "Others" , "label" : "Others"}
+    ],
+
+
+    "prevRehabilitation" :[
+        { "key" : "Speech" , "label" : "Speech" },
+        { "key" : "Vision " , "label" : "Vision " },
+        { "key" : "Physio" , "label" : "Physio" },
+        { "key" : "Occupational therapy" , "label" : "Occupational therapy" },
+        { "key" : "EI" , "label" : "EI" },
+        { "key" : "Others" , "label" : "Others"}
     ]
 }

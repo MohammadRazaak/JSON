@@ -47,8 +47,8 @@
                                 "required": false,
                                 "minlength": 1,
                                 "maxlength": 3,
-                                "pattern": "",
-                                "patternType": ""
+                                "pattern": "^(1[0-7][0-9]|100|[1-9][0-9]?|0)$",
+                                "patternType": "year"
                             }
                         ]
                     },
@@ -92,8 +92,8 @@
                                 "required": false,
                                 "minlength": 1,
                                 "maxlength": 3,
-                                "pattern": "",
-                                "patternType": ""
+                                "pattern": "^(1[0-7][0-9]|100|[1-9][0-9]?|0)$",
+                                "patternType": "year"
                             }
                         ]
                     },
@@ -156,8 +156,8 @@
                                 "required": false,
                                 "minlength": 1,
                                 "maxlength": 3,
-                                "pattern": "",
-                                "patternType": ""
+                                "pattern": "^(1[0-7][0-9]|100|[1-9][0-9]?|0)$",
+                                "patternType": "year"
                             }
                         ]
                     },
@@ -198,8 +198,8 @@
                         "fields": [
                             {
                                 "type": "text",
-                                "name": "combinedAnnalIncome",
-                                "leftSideHeader": "Combined Annal Income",
+                                "name": "combinedAnnualIncome",
+                                "leftSideHeader": "Combined Annual Income",
                                 "label": "",
                                 "required": false,
                                 "minlength": 1,
@@ -219,7 +219,7 @@
                                 "label": "",
                                 "required": false,
                                 "minlength": 1,
-                                "maxlength": 500,
+                                "maxlength": 250,
                                 "pattern": "",
                                 "patternType": ""
                             }
@@ -267,7 +267,7 @@
                                 "label": "",
                                 "required": false,
                                 "minlength": 1,
-                                "maxlength": 50,
+                                "maxlength": 100,
                                 "pattern": "",
                                 "patternType": ""
                             }
@@ -368,7 +368,7 @@
                                 "label": "",
                                 "required": false,
                                 "minlength": 1,
-                                "maxlength": 500,
+                                "maxlength": 250,
                                 "pattern": "",
                                 "patternType": ""
                             }
@@ -419,7 +419,24 @@
                                 "leftSideHeader": "Disability / Systemic disorder in the Family",
                                 "required": false,
                                 "label": "",
-                                "options": "birthasphyxia" 
+                                "options": "birthasphyxia",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "disability",
+                                        "showHideDependentControls": ["disabilityIfYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "text",
+                                "name": "disabilityIfYes",
+                                "leftSideHeader": "",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
                             }
                         ]
                     },
@@ -471,10 +488,78 @@
                                 "leftSideHeader": "Sibilings Particulars",
                                 "required": false,
                                 "label": "",
-                                "options": "myopiayesno" 
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "sibilingsParticulars",
+                                        "showHideDependentControls": ["sibilingsParticularsOrdinalPosition","sibilingsParticularsAge","sibilingsParticularsGender","sibilingsParticularsEducation","sibilingsParticularsNoSameOtherProblem"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ] 
+                            }
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "type": "addorremoverow",
+                        "name": "sibilingsParticularsIfYes",
+                        "fields": [
+                            {
+                                "type": "text",
+                                "name": "sibilingsParticularsOrdinalPosition",
+                                "leftSideHeader": "Ordinal Position",
+                                "label" : "",
+                                "labelposition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "sibilingsParticularsAge",
+                                "label" : "Age",
+                                "labelposition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 3,
+                                "pattern": "^(1[0-7][0-9]|100|[1-9][0-9]?|0)$",
+                                "patternType": "year"
+                            },
+                            {
+                                "type": "radio",
+                                "name": "sibilingsParticularsGender",
+                                "label" : "Gender",
+                                "labelposition": "center",
+                                "required": false,
+                                "options": "gender" 
+                            },
+                            {
+                                "type": "text",
+                                "name": "sibilingsParticularsEducation",
+                                "label" : "Education",
+                                "labelposition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
+                            },
+                            {
+                                "type": "text",
+                                "name": "sibilingsParticularsNoSameOtherProblem",
+                                "label" : "No/same/other problem",
+                                "labelposition": "center",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
                             }
                         ]
                     }
+
                 ]
             }]
         },
@@ -494,7 +579,36 @@
                                 "leftSideHeader": "Developmental Delay / Additional disabilities",
                                 "required": false,
                                 "label": "",
-                                "options": "birthasphyxia" 
+                                "options": "birthasphyxia" ,
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "additionalDisabilities",
+                                        "showHideDependentControls": ["additionalDisabilitiesIfYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "checkbox",
+                                "name": "additionalDisabilitiesIfYes",
+                                "required": false,
+                                "options": "additionalDisabilities",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "additionalDisabilitiesIfYes",
+                                        "showHideDependentControls": ["additionalDisabilitiesIfYesIfOthers"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "text",
+                                "name": "additionalDisabilitiesIfYesIfOthers",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
                             }
                         ]
                     },
@@ -523,7 +637,23 @@
                                 "leftSideHeader": "Previous Examinations",
                                 "required": false,
                                 "label": "",
-                                "options": "prevexaminations" 
+                                "options": "prevexaminations",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "prevExaminations",
+                                        "showHideDependentControls": ["prevExaminationsIfOthers"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "text",
+                                "name": "prevExaminationsIfOthers",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
                             }
                         ]
                     },
@@ -549,7 +679,36 @@
                                 "leftSideHeader": "Previous Rehabilitation care / Therapy",
                                 "required": false,
                                 "label": "",
-                                "options": "myopiayesno" 
+                                "options": "myopiayesno",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "prevRehabilitation",
+                                        "showHideDependentControls": ["prevRehabilitationIfYes"],
+                                        "showHideControlBasedOnValue": ["Yes"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "checkbox",
+                                "name": "prevRehabilitationIfYes",
+                                "required": false,
+                                "options": "prevRehabilitation",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "prevRehabilitationIfYes",
+                                        "showHideDependentControls": ["prevRehabilitationIfYesIfOthers"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "text",
+                                "name": "prevRehabilitationIfYesIfOthers",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
                             }
                         ]
                     },
@@ -562,7 +721,23 @@
                                 "leftSideHeader": "Recommendations",
                                 "required": false,
                                 "label": "",
-                                "options": "recommendations" 
+                                "options": "recommendations",
+                                "dependencies": [
+                                    {
+                                        "triggerControl": "recommendations",
+                                        "showHideDependentControls": ["recommendationsIfOthers"],
+                                        "showHideControlBasedOnValue": ["Others"]
+                                    }
+                                ] 
+                            },
+                            {
+                                "type": "text",
+                                "name": "recommendationsIfOthers",
+                                "required": false,
+                                "minlength": 1,
+                                "maxlength": 200,
+                                "pattern": "",
+                                "patternType": ""
                             }
                         ]
                     },
